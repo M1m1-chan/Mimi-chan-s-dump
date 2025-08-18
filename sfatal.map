@@ -13615,7 +13615,7 @@ Max=5
 Full=no
 Name=CN Start 235
 Group=-1
-House=Chinese
+House=Latin
 Script=01001493
 Whiner=no
 Droppod=no
@@ -13655,7 +13655,7 @@ Max=5
 Full=no
 Name=CN Start 236
 Group=-1
-House=Chinese
+House=Latin
 Script=01001493
 Whiner=no
 Droppod=no
@@ -15132,7 +15132,7 @@ PlayerControl=no
 01001480=1,8,0,0
 01001482=1,52,0,7474
 01001484=1,13,0,150
-01001486=3,51,0,180,57,0,36,32,0,29
+01001486=3,51,0,240,57,0,36,32,0,29
 01001488=1,13,0,135
 01001490=1,13,0,100
 01001499=3,51,0,480,36,0,12,32,0,33
@@ -15142,7 +15142,7 @@ PlayerControl=no
 01001520=1,32,0,868
 
 [FA2spVersionControl]
-Version=1781
+Version=1790
 
 [FATRAP]
 Power=1000
@@ -18619,7 +18619,7 @@ BuildTimeUnitsMult=0.15
 BuildTimeAircraftMult=0.1
 BuildTimeDefensesMult=0.25
 BuildTimeInfantryMult=0.1
-BuildTimeBuildingsMult=0.4
+BuildTimeBuildingsMult=0.3
 
 [Latin House]
 IQ=5
@@ -18629,9 +18629,9 @@ IQ=5
 003=NAPOWR,145,63
 004=NAREFN,123,87
 005=NAPRIS,132,64
-006=NAWEAP,136,66
-007=NAWEAP,111,64
-008=NAPOWR,122,63
+006=NAWEAP,111,64
+007=NAPOWR,122,63
+008=NAWEAP,136,66
 009=NAPOWR,126,64
 010=NAPOWR,125,67
 011=NAAIR,117,57
@@ -18640,8 +18640,8 @@ IQ=5
 014=NANRCTUP,110,58
 015=NATEK,126,71
 016=NAIRON,127,59
-017=NAHAND,128,92
-018=NAEMPS,115,85
+017=NAEMPS,115,85
+018=NAHAND,128,92
 Edge=North
 Color=SovietLoad
 Allies=USSR House,Neutral House,Special House,LC_Defense House,Europeans House
@@ -18738,7 +18738,7 @@ Edge=West
 Color=Magenta
 Allies=PsiCorps House,ScorpionCell House,Headquaters House,Guild1 House,Neutral House,Hive House
 Country=MC_EU
-Credits=50000
+Credits=500000
 NodeCount=44
 TechLevel=10
 PercentBuilt=100
@@ -19028,6 +19028,12 @@ PlayerControl=no
 [PaladinAidSpecial]
 SW.AllowAI=no
 
+[PerunBolt]
+ROF=45
+
+[PerunBoltE]
+ROF=45
+
 [Projectiles]
 3000=AkulaNewP
 
@@ -19281,7 +19287,7 @@ Edge=North
 Color=Purple2
 Allies=PsiCorps House,Headquaters House,Guild1 House,Neutral House,MC_EU House,Hive House
 Country=ScorpionCell
-Credits=5000
+Credits=500000
 NodeCount=23
 TechLevel=10
 PercentBuilt=100
@@ -21202,7 +21208,7 @@ RechargeTime=7
 01000020=Guild3,<none>,AI Auto Production Last Bastion,0,1,1,1,0
 01000022=Neutral,<none>,AI Auto Production Civilian,0,1,1,1,0
 01000024=Special,<none>,AI Auto Production JP,0,1,1,1,0
-01000026=UnitedStates,<none>,[DEBUG] Reveal Everything,1,1,1,1,0
+01000026=UnitedStates,<none>,[DEBUG] Reveal Everything,0,1,1,1,0
 01000028=USSR,<none>,[DEBUG] Test Nuke,1,1,1,1,0
 01000030=UnitedStates,<none>,[DIFF] EASY,0,1,0,0,0
 01000032=UnitedStates,<none>,[DIFF] MEDIUM,0,0,1,0,0
@@ -21242,7 +21248,7 @@ RechargeTime=7
 01000149=ScorpionCell,<none>,[INTRO] 04 Spatha SC Flash,1,1,1,1,0
 01000151=UnitedStates,<none>,[INTRO] 08 Control Online,1,1,1,1,0
 01000153=UnitedStates,<none>,[SETUP] Kill HH Again,0,1,1,1,0
-01000160=UnitedStates,<none>,[DEBUG] Perun Spawn,1,1,1,1,0
+01000160=UnitedStates,<none>,[DEBUG] Perun Spawn,0,1,1,1,0
 01000162=UnitedStates,<none>,[OBSOLETE] xxsc,1,1,1,1,0
 01000164=PsiCorps,<none>,[SETUP] SW Reset PC,1,1,1,1,0
 01000166=ScorpionCell,<none>,[SETUP] SW Reset SC,1,1,1,1,0
@@ -21564,7 +21570,7 @@ RechargeTime=7
 01001279=Europeans,<none>,[AI] EU T3 inf #1,0,1,1,1,0
 01001281=Europeans,<none>,[AI] EU T3 inf #2,0,1,1,1,0
 01001284=Europeans,<none>,[SPAWN] EU Paladin Aid,1,1,1,1,0
-01001289=UnitedStates,<none>,[DEBUG] Mimi-chan To The Rescue,1,1,1,1,0
+01001289=UnitedStates,<none>,[DEBUG] Mimi-chan To The Rescue,0,1,1,1,0
 01001293=UnitedStates,<none>,[SETUP] LC Cleanup,1,1,1,1,0
 01001301=Headquaters,<none>,[AI] HQ AIR VENOM,0,1,1,1,0
 01001303=Headquaters,<none>,[AI] HQ AIR BLIGHT,0,1,1,1,0
@@ -22342,4 +22348,4 @@ Speed=10
 JumpjetSpeed=10
 
 [Digest]
-1=dfumaEfMmC5TAGUCbI9HmHdBdBU=
+1=ToZtgb+Kouv+mlokEClSDF53uU0=
