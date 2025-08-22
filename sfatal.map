@@ -483,7 +483,7 @@ Group=-1
 [01000123]
 Max=5
 Full=no
-Name=Nuwa to 96 51
+Name=MAMM to 96 51
 Group=-1
 House=USSR
 Script=01000121
@@ -498,7 +498,7 @@ Annoyance=no
 IonImmune=no
 Recruiter=no
 Reinforce=no
-TaskForce=01000122
+TaskForce=01001701
 TechLevel=0
 Aggressive=no
 Autocreate=no
@@ -517,7 +517,7 @@ AreTeamMembersRecruitable=no
 [01000126]
 Max=5
 Full=no
-Name=Nuwa to 96 52
+Name=MAMM to 96 52
 Group=-1
 House=USSR
 Script=01000121
@@ -532,7 +532,7 @@ Annoyance=no
 IonImmune=no
 Recruiter=no
 Reinforce=no
-TaskForce=01000122
+TaskForce=01001701
 TechLevel=0
 Aggressive=no
 Autocreate=no
@@ -551,7 +551,7 @@ AreTeamMembersRecruitable=no
 [01000127]
 Max=5
 Full=no
-Name=Nuwa to 96 53
+Name=MAMM to 96 53
 Group=-1
 House=USSR
 Script=01000121
@@ -566,7 +566,7 @@ Annoyance=no
 IonImmune=no
 Recruiter=no
 Reinforce=no
-TaskForce=01000122
+TaskForce=01001701
 TechLevel=0
 Aggressive=no
 Autocreate=no
@@ -15029,6 +15029,11 @@ OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
+[01001701]
+0=1,MAMM
+Name=MAMMx1
+Group=-1
+
 [AITHOR]
 Owner=Europeans,UnitedStates,Pacific,MC_EU
 
@@ -16500,7 +16505,7 @@ PlayerControl=no
 01001699=2,13,0,1,37,0,0
 
 [FA2spVersionControl]
-Version=2079
+Version=2080
 
 [FATRAP]
 Armor=special
@@ -22577,6 +22582,7 @@ RechargeTime=5.5
 174=01001637
 175=01001658
 176=01001659
+177=01001701
 
 [TeamTypes]
 0=01000044
@@ -23683,10 +23689,7 @@ PlayerControl=no
 155=Headquaters House,SHADOW,256,89,150,224,Guard,None,0,-1,0,-1,1,0
 156=Hive House,NAUT,256,101,101,224,Guard,None,0,-1,0,-1,1,0
 157=Hive House,NAUT,256,109,108,224,Guard,None,0,-1,0,-1,1,0
-158=Chinese House,EMPR,256,58,116,96,Guard,None,0,-1,0,-1,1,0
-159=Chinese House,EMPR,256,59,113,96,Guard,None,0,-1,0,-1,1,0
 160=Chinese House,SENT,256,54,113,96,Guard,None,0,-1,0,-1,1,0
-161=Chinese House,EMPR,256,55,116,96,Guard,None,0,-1,0,-1,1,0
 162=Chinese House,SENT,256,56,112,96,Guard,None,0,-1,0,-1,1,0
 163=Chinese House,TTNK,256,61,105,64,Guard,None,0,-1,0,-1,1,0
 164=Chinese House,TTNK,256,60,99,64,Guard,None,0,-1,0,-1,1,0
@@ -23760,6 +23763,9 @@ PlayerControl=no
 232=Neutral House,CIVPX2,188,132,221,224,Sleep,None,0,-1,0,-1,1,0
 233=Neutral House,THOR,119,92,183,32,Sleep,None,0,-1,0,-1,1,0
 234=ScorpionCell House,COYO,256,185,115,128,Guard,None,0,-1,0,-1,1,0
+235=Chinese House,MAMM,256,55,116,96,Guard,None,0,-1,0,-1,1,0
+237=Chinese House,MAMM,256,58,116,96,Guard,None,0,-1,0,-1,1,0
+238=Chinese House,MAMM,256,59,113,96,Guard,None,0,-1,0,-1,1,0
 
 [VOLKOV]
 TechLevel=11
@@ -24256,4 +24262,4 @@ Speed=10
 JumpjetSpeed=10
 
 [Digest]
-1=NT8Yt6LSkanilDqHU4kZ0JfMvLY=
+1=n3iiYoodtR7qA+kzHWQhCNV9LdM=
