@@ -18234,7 +18234,7 @@ Power=-10
 01002049=3,19,7,WarningAlarm,0,0,0,0,A,11,4,sice:perun50,0,0,0,0,A,54,2,01002049,0,0,0,0,A
 01002051=3,19,7,WarningAlarm,0,0,0,0,A,11,4,sice:perun25,0,0,0,0,A,54,2,01002051,0,0,0,0,A
 01002053=2,54,2,01002053,0,0,0,0,A,53,2,01002051,0,0,0,0,A
-01002055=4,11,4,sice:moondrop,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,53,2,01002057,0,0,0,0,A,53,2,01002059,0,0,0,0,A
+01002055=6,11,4,sice:moondrop,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,53,2,01002057,0,0,0,0,A,53,2,01002059,0,0,0,0,A,53,2,01002158,0,0,0,0,A,53,2,01002162,0,0,0,0,A
 01002057=3,32,0,0,0,0,0,0,A,146,11,18,0,0,0,0,500,53,2,01002065,0,0,0,0,A
 01002059=1,32,0,0,0,0,0,0,A
 01002061=4,146,11,18,0,0,0,0,5,53,2,01002063,0,0,0,0,A,54,2,01002061,0,0,0,0,A,53,2,01002067,0,0,0,0,A
@@ -18260,7 +18260,7 @@ Power=-10
 01002101=4,14,0,6,0,0,0,0,A,11,4,gui:firewallsenddelay,0,0,0,0,A,19,7,WarningAlarm,0,0,0,0,A,38,0,3,0,0,0,0,A
 01002112=1,119,0,9,0,0,0,0,A
 01002114=2,11,4,sice:perun2,0,0,0,0,A,36,0,3,0,0,0,0,A
-01002116=5,11,4,sice:hive2,0,0,0,0,A,23,0,0,0,0,0,0,A,27,0,720,0,0,0,0,A,103,4,mission:ablut08,0,0,0,0,A,21,6,EVA_TimerStarted,0,0,0,0,A
+01002116=5,11,4,sice:hive2,0,0,0,0,A,23,0,0,0,0,0,0,A,27,0,600,0,0,0,0,A,103,4,mission:ablut08,0,0,0,0,A,21,6,EVA_TimerStarted,0,0,0,0,A
 01002122=5,7,1,01002119,0,0,0,0,A,7,1,01002120,0,0,0,0,A,7,1,01002121,0,0,0,0,A,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A,11,4,sice:grumble,0,0,0,0,A
 01002125=7,90,0,0,0,0,0,0,LK,90,0,0,0,0,0,0,LL,90,0,0,0,0,0,0,LM,90,0,0,0,0,0,0,LN,90,0,0,0,0,0,0,LO,90,0,0,0,0,0,0,LP,120,0,0,0,0,0,0,A
 01002127=3,14,0,3,0,0,0,0,A,114,0,1,0,0,0,0,A,11,4,mission:ainsom:ggis,0,0,0,0,A
@@ -18277,6 +18277,20 @@ Power=-10
 01002150=5,7,1,01000593,0,0,0,0,A,7,1,01000594,0,0,0,0,A,7,1,01000595,0,0,0,0,A,7,1,01000596,0,0,0,0,A,7,1,01000597,0,0,0,0,A
 01002152=1,11,4,sice:hive1,0,0,0,0,A
 01002156=1,7,1,01002155,0,0,0,0,A
+01002158=3,32,0,0,0,0,0,0,A,146,11,18,0,0,0,0,500,53,2,01002160,0,0,0,0,A
+01002160=3,129,11,97,0,0,0,0,90,146,11,18,0,0,0,0,-5,53,2,01002097,0,0,0,0,A
+01002162=1,32,0,0,0,0,0,0,A
+01002164=4,146,11,18,0,0,0,0,5,53,2,01002063,0,0,0,0,A,54,2,01002164,0,0,0,0,A,53,2,01002166,0,0,0,0,A
+01002166=3,146,11,18,0,0,0,0,5,53,2,01002063,0,0,0,0,A,53,2,01002168,0,0,0,0,A
+01002168=3,146,11,18,0,0,0,0,5,53,2,01002063,0,0,0,0,A,53,2,01002170,0,0,0,0,A
+01002170=3,146,11,18,0,0,0,0,5,53,2,01002063,0,0,0,0,A,53,2,01002172,0,0,0,0,A
+01002172=3,146,11,18,0,0,0,0,5,53,2,01002063,0,0,0,0,A,53,2,01002174,0,0,0,0,A
+01002174=3,146,11,18,0,0,0,0,5,53,2,01002063,0,0,0,0,A,53,2,01002176,0,0,0,0,A
+01002176=3,146,11,18,0,0,0,0,5,53,2,01002063,0,0,0,0,A,53,2,01002178,0,0,0,0,A
+01002178=3,146,11,18,0,0,0,0,5,53,2,01002063,0,0,0,0,A,53,2,01002180,0,0,0,0,A
+01002180=3,146,11,18,0,0,0,0,5,53,2,01002063,0,0,0,0,A,54,2,01002182,0,0,0,0,A
+01002182=3,146,11,18,0,0,0,0,5,53,2,01002063,0,0,0,0,A,53,2,01002184,0,0,0,0,A
+01002184=1,119,0,18,0,0,0,0,A
 
 [AddonKillWH]
 Versus.thndr=1%
@@ -18363,7 +18377,7 @@ SW.AllowAI=no
 [Basic]
 Win=<none>
 Lose=<none>
-Name=Noname
+Name=Iron Tempest
 Brief=<none>
 Intro=A07_F00e
 Theme=Deceiver
@@ -18421,6 +18435,7 @@ SW.AllowAI=no
 5005=NADROP
 5006=DROPM
 5007=GAHIVE
+5008=DROPE
 
 [CAAEFLG]
 Armor=special
@@ -18660,6 +18675,31 @@ RequiredHouses=USSR,Chinese,Latin
 Speed=5
 Prerequisite=NAYARD,SOVTECH
 
+[DRIL]
+TechLevel=11
+ProtectedDriver=yes
+
+[DROPE]
+Name=Moon Drop Casual
+Armor=special
+Owner=PsiCorps
+Power=0
+Sight=0
+Crewed=no
+Points=0
+Strength=700
+Drainable=no
+Explosion=NOANIM
+MaxDebris=0
+MinDebris=0
+TechLevel=11
+BaseNormal=no
+Capturable=false
+ImmuneToEMP=no
+Insignificant=yes
+ImmuneToPsionics=no
+AIBasePlanningSide=0
+
 [DROPM]
 Name=Moon Drop Normal
 Armor=special
@@ -18683,6 +18723,16 @@ AIBasePlanningSide=0
 
 [DTRUCK]
 ForbiddenHouses=Chinese,USSR
+
+[Deploy1Special]
+Name=Remaining Moon Forces
+UIName=mission:shand92
+IsPowered=true
+ShowTimer=yes
+RechargeTime=1.667
+SW.AITargeting=None
+SW.NegBuildings=DROPE
+DisableableFromShell=no
 
 [Deploy2Special]
 Name=Remaining Moon Forces
@@ -19531,9 +19581,23 @@ PlayerControl=no
 01002150=1,13,0,15
 01002152=1,13,0,525
 01002156=1,60,2,1,THNDR
+01002158=1,8,0,0
+01002160=1,13,0,1
+01002162=1,8,0,0
+01002164=1,75,0,82
+01002166=1,75,0,82
+01002168=1,75,0,82
+01002170=1,75,0,82
+01002172=1,75,0,82
+01002174=1,75,0,82
+01002176=1,75,0,82
+01002178=1,75,0,82
+01002180=1,75,0,82
+01002182=1,75,0,82
+01002184=1,8,0,41
 
 [FA2spVersionControl]
-Version=3097
+Version=3109
 
 [FABLST]
 Armor=special
@@ -24564,7 +24628,7 @@ IQ=5
 002=YAWEAP,208,146
 003=YAWEAP,194,148
 004=YABRCK,209,160
-005=YATECH,214,152 
+005=YATECH,214,152
 006=YAYARD,179,141
 007=YAPVLT,214,152
 008=YAPSYT,198,144
@@ -24574,7 +24638,7 @@ IQ=5
 012=YARAIL,223,154
 013=YAAIRF,220,147
 014=YAAIRF,218,140
-015=YAPSYT,214,144 
+015=YAPSYT,214,144
 016=YARAIL,203,126
 017=YAGGUN,206,162
 018=YARAIL,212,136
@@ -26088,7 +26152,7 @@ DestroyableBridges=yes
 639=Hive House,YAGATE2_A,256,207,137,64,None,1,0,1,0,0,None,None,None,0,0
 640=Moon House,FABLST,256,188,89,64,None,1,0,1,0,0,None,None,None,0,0
 641=Hive House,YAHIVE,256,208,139,64,01000171,1,0,1,0,0,None,None,None,0,0
-642=Moon House,DROPM,256,192,93,64,01002058,1,0,1,0,0,None,None,None,0,0
+642=Moon House,DROPM,256,194,95,64,01002058,1,0,1,0,0,None,None,None,0,0
 643=USSR House,DROPM,256,29,130,64,01002060,1,0,1,0,0,None,None,None,0,0
 644=PsiCorps House,CAPBAN,256,225,166,64,None,1,0,1,0,0,None,None,None,0,0
 645=PsiCorps House,CAPBAN,256,225,154,64,None,1,0,1,0,0,None,None,None,0,0
@@ -26168,6 +26232,8 @@ DestroyableBridges=yes
 719=Neutral House,CARUFGL,256,121,24,64,01002128,1,0,1,0,0,None,None,None,0,0
 720=MC_EU House,ATESLA,256,116,202,64,None,1,0,1,0,0,None,None,None,1,0
 721=MC_EU House,GAGUN,256,107,193,224,None,1,0,1,0,0,None,None,None,1,0
+722=USSR House,DROPE,256,25,126,64,01002163,1,0,1,0,0,None,None,None,0,0
+723=Moon House,DROPE,256,192,93,64,01002159,1,0,1,0,0,None,None,None,0,0
 
 [SuperGehennaLauncher]
 Range=47
@@ -27062,6 +27128,20 @@ EliteSecondary=none
 01002151=0,[ALLY] Reaper wave2 1,01002150
 01002153=0,[TEXT] Perun1 1,01002152
 01002157=0,[EE] Thunder Timer 1,01002156
+01002159=0,[MOON] Counter E Start 1,01002158
+01002161=0,[MOON] Counter E Start2 1,01002160
+01002163=0,[MOON] E Give To Player 1,01002162
+01002165=0,[MOON] Drop Used E Times:1 1,01002164
+01002167=0,[MOON] Drop Used E Times:2 1,01002166
+01002169=0,[MOON] Drop Used E Times:3 1,01002168
+01002171=0,[MOON] Drop Used E Times:4 1,01002170
+01002173=0,[MOON] Drop Used E Times:5 1,01002172
+01002175=0,[MOON] Drop Used E Times:6 1,01002174
+01002177=0,[MOON] Drop Used E Times:7 1,01002176
+01002179=0,[MOON] Drop Used E Times:8 1,01002178
+01002181=0,[MOON] Drop Used E Times:9 1,01002180
+01002183=0,[MOON] Drop Used E Times:10 1,01002182
+01002185=0,[MOON] Drop Used E Times:10 -OVER- 1,01002184
 
 [TankDropSpecial]
 Money.Amount=-2200
@@ -27304,7 +27384,35 @@ SW.InitialReady=yes
 SW.NegBuildings=DROPM
 SW.VirtualCharge=yes
 SW.FireIntoShroud=no
-SW.RequiresTarget=empty
+SW.RequiresTarget=land
+SW.CreateRadarEvent=no
+DisableableFromShell=no
+FlashSidebarTabFrames=0
+
+[Team3Special]
+Name=Moon Reinforcements Easy
+Range=5
+Cursor=MoonDrop
+UIName=name:moondrop
+NoCursor=NoCanDo
+SW.Shots=10
+EVA.Ready=EVA_ReinforcementsReady
+IsPowered=false
+ShowTimer=no
+SW.AllowAI=no
+SidebarPCX=mdrpicon.pcx
+RechargeTime=4.5
+SW.Animation=NOANIM
+SW.Deferment=20
+Deliver.Types=NADROP
+SW.Inhibitors=FAINHI,FAINHIB,RACC,COON,FAJAMM,YASPAT,CAKANE01,YACNST,YAPPET,CACRSS3
+LineMultiplier=1
+SW.AITargeting=None
+SW.InitialReady=yes
+SW.NegBuildings=DROPE
+SW.VirtualCharge=yes
+SW.FireIntoShroud=no
+SW.RequiresTarget=land
 SW.CreateRadarEvent=no
 DisableableFromShell=no
 FlashSidebarTabFrames=0
@@ -27846,7 +27954,7 @@ SW.RangeMaximum=70
 SW.FireIntoShroud=no
 SW.CreateRadarEvent=no
 DisableableFromShell=no
-FlashSidebarTabFrames=0
+FlashSidebarTabFrames=60
 SW.AITargeting.Constraints=enemy
 
 [ThunderStrikeWH]
@@ -28507,19 +28615,19 @@ RechargeTime=7
 01002051=UnitedStates,<none>,[MISC] PERUN 25% Warning,0,1,1,1,0
 01002053=UnitedStates,<none>,[MISC] PERUN 25% Warning Delay,1,1,1,1,0
 01002055=USSR,<none>,[MOON] Activate Timer,1,1,1,1,0
-01002057=Moon,<none>,[MOON] Counter M Start,1,1,1,1,0
-01002059=UnitedStates,<none>,[MOON] M Give To Player,1,1,1,1,0
-01002061=USSR,<none>,[MOON] Drop Used M Times:1,0,1,1,1,0
+01002057=Moon,<none>,[MOON] Counter M Start,1,0,1,1,0
+01002059=UnitedStates,<none>,[MOON] M Give To Player,1,0,1,1,0
+01002061=USSR,<none>,[MOON] Drop Used M Times:1,0,0,1,1,0
 01002063=UnitedStates,<none>,[MOON] After Use,1,1,1,1,0
-01002065=Moon,<none>,[MOON] Counter M Start2,1,1,1,1,0
-01002067=USSR,<none>,[MOON] Drop Used M Times:2,1,1,1,1,0
-01002069=USSR,<none>,[MOON] Drop Used M Times:3,1,1,1,1,0
-01002071=USSR,<none>,[MOON] Drop Used M Times:4,1,1,1,1,0
-01002073=USSR,<none>,[MOON] Drop Used M Times:5,1,1,1,1,0
-01002075=USSR,<none>,[MOON] Drop Used M Times:6,1,1,1,1,0
-01002077=USSR,<none>,[MOON] Drop Used M Times:7,1,1,1,1,0
-01002079=USSR,<none>,[MOON] Drop Used M Times:8,1,1,1,1,0
-01002081=UnitedStates,<none>,[MOON] Drop Used M Times:8 -OVER-,1,1,1,1,0
+01002065=Moon,<none>,[MOON] Counter M Start2,1,0,1,1,0
+01002067=USSR,<none>,[MOON] Drop Used M Times:2,1,0,1,1,0
+01002069=USSR,<none>,[MOON] Drop Used M Times:3,1,0,1,1,0
+01002071=USSR,<none>,[MOON] Drop Used M Times:4,1,0,1,1,0
+01002073=USSR,<none>,[MOON] Drop Used M Times:5,1,0,1,1,0
+01002075=USSR,<none>,[MOON] Drop Used M Times:6,1,0,1,1,0
+01002077=USSR,<none>,[MOON] Drop Used M Times:7,1,0,1,1,0
+01002079=USSR,<none>,[MOON] Drop Used M Times:8,1,0,1,1,0
+01002081=UnitedStates,<none>,[MOON] Drop Used M Times:8 -OVER-,1,0,1,1,0
 01002083=UnitedStates,<none>,[MOON] Init,0,1,1,1,0
 01002085=UnitedStates,<none>,[HIVE] BLIGHT 167,0,1,1,1,0
 01002087=UnitedStates,<none>,[HIVE] VENOM 167,0,1,1,1,0
@@ -28549,6 +28657,20 @@ RechargeTime=7
 01002150=UnitedStates,<none>,[ALLY] Reaper wave2,1,1,1,1,0
 01002152=UnitedStates,<none>,[TEXT] Perun1,1,1,1,1,0
 01002156=UnitedStates,<none>,[EE] Thunder Timer,0,1,1,1,0
+01002158=Moon,<none>,[MOON] Counter E Start,1,1,0,0,0
+01002160=Moon,<none>,[MOON] Counter E Start2,1,1,0,0,0
+01002162=UnitedStates,<none>,[MOON] E Give To Player,1,1,0,0,0
+01002164=USSR,<none>,[MOON] Drop Used E Times:1,0,1,0,0,0
+01002166=USSR,<none>,[MOON] Drop Used E Times:2,1,1,0,0,0
+01002168=USSR,<none>,[MOON] Drop Used E Times:3,1,1,0,0,0
+01002170=USSR,<none>,[MOON] Drop Used E Times:4,1,1,0,0,0
+01002172=USSR,<none>,[MOON] Drop Used E Times:5,1,1,0,0,0
+01002174=USSR,<none>,[MOON] Drop Used E Times:6,1,1,0,0,0
+01002176=USSR,<none>,[MOON] Drop Used E Times:7,1,1,0,0,0
+01002178=USSR,<none>,[MOON] Drop Used E Times:8,1,1,0,0,0
+01002180=USSR,<none>,[MOON] Drop Used E Times:9,1,1,0,0,0
+01002182=USSR,<none>,[MOON] Drop Used E Times:10,1,1,0,0,0
+01002184=UnitedStates,<none>,[MOON] Drop Used E Times:10 -OVER-,1,1,1,1,0
 
 [USSR]
 Name=USSR
@@ -29554,4 +29676,4 @@ Speed=10
 JumpjetSpeed=10
 
 [Digest]
-1=n4NuY7tXUtmalWNEfz2YZjnHCeQ=
+1=zyQaX8q0EOQLr+zZH22etWAkySg=
