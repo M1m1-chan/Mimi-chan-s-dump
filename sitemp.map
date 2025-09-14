@@ -18411,6 +18411,139 @@ OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
 
+[01002318]
+0=3,STALKER
+1=4,BRUTE
+Name=AI HQ Barrier#1
+Group=-1
+
+[01002319]
+0=53,0
+1=55,3
+2=55,8
+3=0,1
+Name=AI HQ Barrier SCR
+
+[01002320]
+Max=5
+Full=no
+Name=AIHQ T3 inf #4 Barrier
+Group=-1
+House=Headquaters
+Script=01002319
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01002318
+TechLevel=0
+Aggressive=no
+Autocreate=yes
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[01002323]
+0=4,BRUTE
+1=3,DUNE
+Name=AI HQ Barrier#2
+Group=-1
+
+[01002324]
+Max=5
+Full=no
+Name=AIHQ T3 inf #5 Barrier
+Group=-1
+House=Headquaters
+Script=01002319
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01002323
+TechLevel=0
+Aggressive=no
+Autocreate=yes
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[01002327]
+0=3,SCRG
+1=3,BRUTE
+Name=AI SC Drugs#1
+Group=-1
+
+[01002328]
+0=53,0
+1=55,8
+2=0,1
+Name=AI SC Drugs SCR
+
+[01002329]
+Max=5
+Full=no
+Name=AISC T3 inf #5 Drugs
+Group=-1
+House=ScorpionCell
+Script=01002328
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01002327
+TechLevel=0
+Aggressive=no
+Autocreate=yes
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
 [AITHOR]
 Owner=Europeans,UnitedStates,Pacific,MC_EU
 
@@ -19180,11 +19313,9 @@ Power=-10
 01002309=1,4,1,01002308,0,0,0,0,A
 01002313=1,7,1,01002312,0,0,0,0,A
 01002316=1,4,1,01002315,0,0,0,0,A
-01002318=2,54,2,01002318,0,0,0,0,A,53,2,01002320,0,0,0,0,A
-01002320=3,146,11,11,0,0,0,0,-200,54,2,01002320,0,0,0,0,A,53,2,01002324,0,0,0,0,A
-01002322=3,146,11,11,0,0,0,0,200,54,2,01002322,0,0,0,0,A,53,2,01002318,0,0,0,0,A
-01002324=2,54,2,01002324,0,0,0,0,A,53,2,01002322,0,0,0,0,A
-01002326=1,146,11,11,0,0,0,0,150
+01002321=1,4,1,01002320,0,0,0,0,A
+01002325=1,4,1,01002324,0,0,0,0,A
+01002330=1,4,1,01002329,0,0,0,0,A
 
 [AddonKillWH]
 Versus.thndr=1%
@@ -19348,11 +19479,6 @@ DesignatorRange=18
 
 [CACRSS3]
 InhibitorRange=10
-
-[CACRSS4]
-Power=-10
-Powered=true
-SuperWeapon=KineticBarrierSpecial
 
 [CACRSSX]
 Image=CAPSHC
@@ -19862,7 +19988,7 @@ IQ=5
 067=GAYARD,140,161
 Edge=South
 Color=DarkSky
-Allies=USSR House,Latin House,Neutral House,LC_Defense House,Perun House,Guild3 House
+Allies=USSR House,Latin House,Neutral House,LC_Defense House,Perun House
 Country=Europeans
 Credits=500000
 NodeCount=68
@@ -20584,14 +20710,12 @@ PlayerControl=no
 01002309=4,51,0,500,36,0,14,32,0,61,37,0,23
 01002313=1,13,0,35
 01002316=3,51,0,420,36,0,3,32,0,59
-01002318=1,57,0,62
-01002320=1,13,0,1
-01002322=1,13,0,1
-01002324=1,32,0,62
-01002326=1,13,0,300
+01002321=3,51,0,400,36,0,3,32,0,56
+01002325=3,51,0,360,36,0,3,32,0,56
+01002330=3,51,0,440,36,0,3,32,0,56
 
 [FA2spVersionControl]
-Version=3466
+Version=3482
 
 [FABLST]
 Armor=special
@@ -21074,7 +21198,7 @@ ParentCountry=Guild3
 IQ=5
 Edge=North
 Color=Teal
-Allies=USSR House,Europeans House,Latin House
+Allies=Neutral House
 Country=Guild3
 Credits=5000
 NodeCount=0
@@ -21349,7 +21473,6 @@ LightVisibility=1700
 125=PsiCorps House,VIRUS,256,213,156,0,Guard,64,None,0,-1,0,1,0
 126=PsiCorps House,YURIPR,256,223,152,0,Guard,0,None,0,-1,0,1,0
 127=PsiCorps House,YURIPR,256,206,158,0,Guard,64,None,0,-1,0,1,0
-128=Guild3 House,E2,256,38,99,0,Guard,64,None,0,-1,0,1,0
 
 [InvisibleAG]
 AA=no
@@ -24734,19 +24857,10 @@ Owner=Latin,Europeans
 RequiredHouses=Latin,Europeans
 
 [KineticBarrierSpecial]
-IsPowered=true
-SW.AutoFire=yes
-RechargeTime=5
-SW.ManualFire=no
-SW.AITargeting=GeneticMutator
-SW.RangeMaximum=16
-SW.AIRequiresHouse=enemies
+RechargeTime=4.5
 
 [KineticBarrierWH]
-CellSpread=6.4
-AffectsOwner=no
-AffectsAllies=no
-AffectsEnemies=yes
+CellSpread=4.5
 AttachEffect.Duration=900
 
 [KnightfallSpawn]
@@ -24883,7 +24997,7 @@ IQ=5
 019=NAHAND,133,96
 Edge=North
 Color=DarkRed
-Allies=Europeans House,USSR House,Neutral House,Special House,LC_Defense House,DominatorPC House,Perun House,Guild3 House
+Allies=Europeans House,USSR House,Neutral House,Special House,LC_Defense House,DominatorPC House,Perun House
 Country=Latin
 Credits=500000
 NodeCount=20
@@ -25779,9 +25893,9 @@ CellSpread=16
 [Ranking]
 ParTimeEasy=00:34:00
 ParTimeHard=00:45:00
-OverParTitle=GUI:ParTitleALL12
+OverParTitle=NAME:REPORT
 ParTimeMedium=00:38:00
-UnderParTitle=GUI:ParTitleALL14
+UnderParTitle=NAME:REPORT
 OverParMessage=GUI:OverParMsgAll07md
 UnderParMessage=GUI:UnderParMsgAll07md
 
@@ -26201,6 +26315,8 @@ PlayerControl=no
 198=01002276
 199=01002277
 200=01002311
+201=01002319
+202=01002328
 
 [SeawolfAAGun]
 Damage=20
@@ -27326,7 +27442,6 @@ DestroyableBridges=yes
 741=Guild1 House,CAMISC02B,256,38,109,64,None,1,0,1,0,0,None,None,None,0,0
 742=Guild1 House,YASPOT,256,65,103,0,None,1,0,1,0,1,None,None,None,0,0
 743=Guild1 House,CAMISC02B,256,67,104,64,None,1,0,1,0,0,None,None,None,0,0
-744=Guild3 House,CACRSS4,256,78,140,64,01001960,1,0,1,0,0,None,None,None,0,0
 
 [SuperGehennaLauncher]
 Range=47
@@ -28281,11 +28396,9 @@ EliteSecondary=none
 01002310=2,[AI] SC Fleet#5 1,01002309
 01002314=0,[ATTACK] Initial Attack5 1,01002313
 01002317=2,[AI] HQ T2 #1 sneaky MH 1,01002316
-01002319=2,[MISC] HQ no YAGVLT 1,01002318
-01002321=2,[MISC] Barrier Disable 1,01002320
-01002323=2,[MISC] Barrier Enable 1,01002322
-01002325=2,[MISC] HQ YAGVLT Rebuilt 1,01002324
-01002327=0,[MISC] LB Power 1,01002326
+01002322=2,[AI] HQ T3 inf #5 Barrier 1,01002321
+01002326=2,[AI] HQ T2 inf #3 Barrier 1,01002325
+01002331=2,[AI] SC T3 inf #5 Drugs 1,01002330
 
 [TankDropSpecial]
 Money.Amount=-2200
@@ -28511,6 +28624,9 @@ RechargeTime=5.5
 216=01002278
 217=01002301
 218=01002302
+219=01002318
+220=01002323
+221=01002327
 
 [Team1Special]
 Name=Moon Reinforcements Normal
@@ -29069,6 +29185,9 @@ FlashSidebarTabFrames=0
 469=01002308
 470=01002312
 471=01002315
+472=01002320
+473=01002324
+474=01002329
 
 [TechMissileSpecial]
 SW.Inhibitors=CACEAS,FAINHI,FAINHIB,RACC,COON,FAJAMM,YASPAT,CAKANE01,CACRSS3
@@ -29920,11 +30039,9 @@ RechargeTime=7
 01002309=ScorpionCell,<none>,[AI] SC Fleet#5,0,1,1,1,0
 01002313=UnitedStates,<none>,[ATTACK] Initial Attack5,1,1,1,1,0
 01002316=Headquaters,<none>,[AI] HQ T2 #1 sneaky MH,0,0,1,1,0
-01002318=Headquaters,<none>,[MISC] HQ no YAGVLT,0,1,1,1,0
-01002320=Guild3,<none>,[MISC] Barrier Disable,1,1,1,1,0
-01002322=Guild3,<none>,[MISC] Barrier Enable,1,1,1,1,0
-01002324=Headquaters,<none>,[MISC] HQ YAGVLT Rebuilt,1,1,1,1,0
-01002326=Guild3,<none>,[MISC] LB Power,0,1,1,1,0
+01002321=Headquaters,<none>,[AI] HQ T3 inf #5 Barrier,0,1,1,1,0
+01002325=Headquaters,<none>,[AI] HQ T2 inf #3 Barrier,0,1,1,1,0
+01002330=ScorpionCell,<none>,[AI] SC T3 inf #5 Drugs,0,1,1,1,0
 
 [USSR]
 Name=USSR
@@ -29945,7 +30062,7 @@ BuildTimeBuildingsMult=1
 IQ=0
 Edge=North
 Color=SovietLoad
-Allies=Europeans House,Latin House,Neutral House,LC_Defense House,Perun House,Guild3 House
+Allies=Europeans House,Latin House,Neutral House,LC_Defense House,Perun House
 Country=USSR
 Credits=750
 NodeCount=0
@@ -30768,7 +30885,6 @@ CrateBeneathIsMoney=yes
 Capturable=false
 SuperWeapon=none
 Prerequisite=YACNST,YATECH
-SuperWeapons=RuinerSpecial,IllusionSpecial,RisenMonolithSpecial
 
 [YAHIVE]
 Name=Enemy Structure
@@ -30925,6 +31041,7 @@ LightningRod.Modifier=2
 
 [YATECH]
 Capturable=false
+SuperWeapons=IllusionSpecial,KineticBarrierSpecial
 
 [YAVULT]
 Capturable=false
@@ -30961,4 +31078,4 @@ Speed=10
 JumpjetSpeed=10
 
 [Digest]
-1=HzMB7DX97RyvnRiAXTjSoE66MJI=
+1=mqd817/7h2VwBPRBvawkY8Ffzv8=
