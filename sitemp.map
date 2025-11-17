@@ -17779,7 +17779,7 @@ AreTeamMembersRecruitable=no
 [01001885]
 Max=5
 Full=no
-Name=TTNK to 96 251
+Name=MAMM to 96 251
 Group=-1
 House=USSR
 Script=01000121
@@ -17794,7 +17794,7 @@ Annoyance=no
 IonImmune=no
 Recruiter=no
 Reinforce=no
-TaskForce=01000132
+TaskForce=01001701
 TechLevel=0
 Aggressive=no
 Autocreate=no
@@ -20071,7 +20071,7 @@ Power=-10
 01000098=4,53,2,01001705,0,0,0,0,A,53,2,01000149,0,0,0,0,A,53,2,01000952,0,0,0,0,A,53,2,01002207,0,0,0,0,A
 01000100=1,121,0,5,0,0,0,0,A
 01000102=1,119,0,9,0,0,0,0,A
-01000104=7,112,0,0,0,0,0,0,AH,53,2,01000106,0,0,0,0,A,19,7,CameraSwitch,0,0,0,0,A,17,0,34,0,0,0,0,A,53,2,01000108,0,0,0,0,A,53,2,01002144,0,0,0,0,A,11,4,mission:sitemp08b,0,0,0,0,A
+01000104=7,112,0,0,0,0,0,0,AH,53,2,01000106,0,0,0,0,A,19,7,CameraSwitch,0,0,0,0,A,17,0,34,0,0,0,0,A,53,2,01000108,0,0,0,0,A,53,2,01002144,0,0,0,0,A,11,4,mission:sitemp08a,0,0,0,0,A
 01000106=2,41,0,1858,0,0,0,0,AH,41,0,1858,0,0,0,0,FL
 01000108=1,131,9,YAHIVE,0,0,0,0,90
 01000110=4,101,0,30,0,0,0,0,A,101,0,41,0,0,0,0,A,101,0,277,0,0,0,0,A,101,0,267,0,0,0,0,A
@@ -20355,7 +20355,7 @@ Power=-10
 01001089=2,53,2,01000010,0,0,0,0,A,53,2,01001087,0,0,0,0,A
 01001091=2,125,10,NAMISL,0,0,0,0,EL,53,2,01001899,0,0,0,0,A
 01001093=2,2,0,3,0,0,0,0,A,20,8,Nothing,0,0,0,0,A
-01001095=3,53,2,01001101,0,0,0,0,A,53,2,01001099,0,0,0,0,A,53,2,01002215,0,0,0,0,A
+01001095=4,53,2,01001101,0,0,0,0,A,53,2,01001099,0,0,0,0,A,53,2,01002215,0,0,0,0,A,9,0,20,0,0,0,0,A
 01001097=5,19,7,ObjectiveComplete,0,0,0,0,A,21,6,EVA_ObjectiveComplete,0,0,0,0,A,11,4,mission:objc,0,0,0,0,A,54,2,01001103,0,0,0,0,A,56,0,40,0,0,0,0,A
 01001099=2,113,0,3,0,0,0,0,A,113,0,4,0,0,0,0,A
 01001101=1,1,0,3,0,0,0,0,A
@@ -20513,7 +20513,7 @@ Power=-10
 01001683=1,53,2,01001677,0,0,0,0,A
 01001685=9,63,0,255,0,0,0,0,A,63,0,256,0,0,0,0,A,63,0,257,0,0,0,0,A,63,0,258,0,0,0,0,A,63,0,259,0,0,0,0,A,63,0,260,0,0,0,0,A,63,0,261,0,0,0,0,A,63,0,262,0,0,0,0,A,63,0,263,0,0,0,0,A
 01001687=1,60,0,0,0,0,0,0,A
-01001689=7,112,0,0,0,0,0,0,CE,11,4,mission:sitemp08a,0,0,0,0,A,19,7,CameraSwitch,0,0,0,0,A,17,0,264,0,0,0,0,A,53,2,01000104,0,0,0,0,A,53,2,01001691,0,0,0,0,A,53,2,01001693,0,0,0,0,A
+01001689=6,112,0,0,0,0,0,0,CE,53,2,01001693,0,0,0,0,A,19,7,CameraSwitch,0,0,0,0,A,17,0,264,0,0,0,0,A,53,2,01000104,0,0,0,0,A,53,2,01001691,0,0,0,0,A
 01001691=1,41,0,1858,0,0,0,0,CE
 01001693=1,131,9,YAHIVE,0,0,0,0,90
 01001695=6,54,2,01001691,0,0,0,0,AH,54,2,01000106,0,0,0,0,AH,53,2,01001697,0,0,0,0,A,53,2,01001699,0,0,0,0,A,54,2,01001832,0,0,0,0,AH,53,2,01001830,0,0,0,0,A
@@ -20666,7 +20666,7 @@ Power=-10
 01002101=1,14,0,17,0,0,0,0,A
 01002112=1,119,0,9,0,0,0,0,A
 01002114=3,11,4,mission:sitemp:perun2,0,0,0,0,A,36,0,3,0,0,0,0,A,19,7,PerunSelect,0,0,0,0,A
-01002116=5,11,4,mission:sitemp13,0,0,0,0,A,23,0,0,0,0,0,0,A,27,0,600,0,0,0,0,A,103,4,mission:ablut08,0,0,0,0,A,21,6,EVA_TimerStarted,0,0,0,0,A
+01002116=5,11,4,mission:sitemp13,0,0,0,0,A,23,0,0,0,0,0,0,A,27,0,600,0,0,0,0,A,103,4,mission:sitemp19,0,0,0,0,A,21,6,EVA_TimerStarted,0,0,0,0,A
 01002122=6,7,1,01002119,0,0,0,0,A,7,1,01002120,0,0,0,0,A,7,1,01002121,0,0,0,0,A,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A,11,4,mission:sitemp15,0,0,0,0,A,53,2,01002359,0,0,0,0,A
 01002125=7,90,0,0,0,0,0,0,LK,90,0,0,0,0,0,0,LL,90,0,0,0,0,0,0,LM,90,0,0,0,0,0,0,LN,90,0,0,0,0,0,0,LO,90,0,0,0,0,0,0,LP,120,0,0,0,0,0,0,A
 01002127=3,14,0,3,0,0,0,0,A,114,0,1,0,0,0,0,A,11,4,mission:ainsom:ggis,0,0,0,0,A
@@ -20677,7 +20677,7 @@ Power=-10
 01002138=0
 01002140=6,12,2,01001634,0,0,0,0,A,12,2,01001642,0,0,0,0,A,12,2,01001646,0,0,0,0,A,12,2,01001640,0,0,0,0,A,12,2,01001644,0,0,0,0,A,12,2,01001648,0,0,0,0,A
 01002142=1,41,0,2239,0,0,0,0,KT
-01002144=6,112,0,0,0,0,0,0,FL,11,4,sice:intro11,0,0,0,0,A,19,7,CameraSwitch,0,0,0,0,A,17,0,328,0,0,0,0,A,53,2,01002146,0,0,0,0,A,53,2,01000119,0,0,0,0,A
+01002144=6,112,0,0,0,0,0,0,FL,11,4,mission:sitemp08b,0,0,0,0,A,19,7,CameraSwitch,0,0,0,0,A,17,0,328,0,0,0,0,A,53,2,01002146,0,0,0,0,A,53,2,01000119,0,0,0,0,A
 01002146=1,131,9,YAHIVE,0,0,0,0,90
 01002148=1,11,4,mission:sitemp07,0,0,0,0,A
 01002150=5,7,1,01000593,0,0,0,0,A,7,1,01000594,0,0,0,0,A,7,1,01000595,0,0,0,0,A,7,1,01000596,0,0,0,0,A,7,1,01000597,0,0,0,0,A
@@ -21057,10 +21057,13 @@ Owner=Chinese,Latin
 RequiredHouses=Chinese,Latin
 
 [CYBO]
+Ammo=1
 Cost=1300
 Owner=USSR
+Reload=90
 Strength=520
 TechLevel=10
+EmptyReload=90
 Prerequisite=NAHAND,NAINDP
 SelfHealing.Rate=.02
 
@@ -21180,6 +21183,14 @@ Damage=18
 18=Moon
 19=Perun
 20=PCOuter
+
+[CyborgGrenade]
+ROF=30
+Ammo=1
+
+[CyborgGrenadeE]
+ROF=30
+Ammo=1
 
 [DBOAT]
 Strength=570
@@ -21524,12 +21535,12 @@ PlayerControl=no
 01000098=1,13,0,0
 01000100=1,13,0,0
 01000102=1,13,0,4
-01000104=1,13,0,6
+01000104=1,13,0,8
 01000106=1,13,0,1
 01000108=1,13,0,1
 01000110=1,13,0,1
 01000112=1,36,0,4
-01000114=1,13,0,2
+01000114=1,13,0,3
 01000119=1,13,0,10
 01000124=1,8,0,0
 01000145=1,8,0,0
@@ -21761,7 +21772,7 @@ PlayerControl=no
 01000948=3,51,0,480,36,0,3,32,0,56
 01000950=11,17,0,0,57,0,56,57,0,57,57,0,59,57,0,60,57,0,61,57,0,62,57,0,68,57,0,78,57,0,77,57,0,96
 01000952=2,13,0,1,37,0,16
-01000954=11,17,0,0,57,0,56,57,0,57,57,0,59,57,0,60,57,0,61,57,0,62,57,0,68,57,0,77,57,0,80,57,0,96
+01000954=10,17,0,0,57,0,56,57,0,57,57,0,59,57,0,60,57,0,62,57,0,68,57,0,77,57,0,80,57,0,96
 01000985=3,51,0,240,36,0,17,32,0,56
 01000987=3,51,0,240,36,0,17,32,0,56
 01000989=3,51,0,240,36,0,17,32,0,56
@@ -21803,7 +21814,7 @@ PlayerControl=no
 01001079=0
 01001081=0
 01001083=1,13,0,640
-01001085=1,13,0,380
+01001085=1,13,0,320
 01001087=1,13,0,150
 01001089=1,13,0,800
 01001091=1,13,0,700
@@ -22086,7 +22097,7 @@ PlayerControl=no
 01002027=1,61,2,0,PERUN
 01002029=1,13,0,7
 01002034=1,13,0,1
-01002041=1,8,0,GIGA
+01002041=1,13,0,6
 01002043=1,36,0,37
 01002045=1,13,0,5
 01002047=1,36,0,15
@@ -22130,7 +22141,7 @@ PlayerControl=no
 01002138=1,8,0,0
 01002140=1,36,0,19
 01002142=1,13,0,2
-01002144=1,13,0,7
+01002144=1,13,0,9
 01002146=1,13,0,1
 01002148=1,13,0,6
 01002150=1,13,0,15
@@ -22214,7 +22225,7 @@ PlayerControl=no
 01002361=1,8,0,0
 
 [FA2spVersionControl]
-Version=3542
+Version=3567
 
 [FABLST]
 Armor=special
@@ -22456,6 +22467,7 @@ Capturable=false
 EligibileForAllyBuilding=no
 
 [GAWEAT]
+Strength=1500
 EligibileForAllyBuilding=no
 
 [GIGA]
@@ -28247,7 +28259,7 @@ AttachEffect.ArmorMultiplier=99
 37=PCOuter House,YAGGUN,256,163,170,160,None,1,0,1,0,0,None,None,None,1,0
 38=PCOuter House,YAPSYT,256,164,159,0,None,1,0,1,0,0,None,None,None,1,0
 39=PCOuter House,YAGGUN,256,162,161,192,None,1,0,1,0,0,None,None,None,1,0
-40=PsiCorps House,YAHADE,256,169,156,32,None,1,0,1,0,0,None,None,None,1,0
+40=PCOuter House,YAHADE,256,169,156,32,None,1,0,1,0,0,None,None,None,1,0
 41=PCOuter House,YARAIL,256,167,157,64,None,1,0,1,0,0,None,None,None,1,0
 42=PCOuter House,YAPSYT,256,172,158,0,None,1,0,1,0,0,None,None,None,1,0
 43=DominatorPC House,YARAIL,256,187,182,64,None,1,0,1,0,0,None,None,None,1,0
@@ -28267,7 +28279,6 @@ AttachEffect.ArmorMultiplier=99
 57=DominatorPC House,YAPSYT,256,190,197,0,None,1,0,1,0,0,None,None,None,1,0
 58=PsiCorps House,CAYCRG02,256,174,196,64,None,1,0,1,0,0,None,None,None,0,0
 59=PCOuter House,YARAIL,256,178,161,64,None,1,0,1,0,0,None,None,None,1,0
-60=PsiCorps House,YAHADE,256,190,168,32,None,1,0,1,0,0,None,None,None,1,0
 61=MC_EU House,GATECH,256,146,201,64,None,1,0,1,0,0,None,None,None,1,0
 62=PsiCorps House,YAGNTC,256,202,145,64,01001676,1,0,0,0,0,None,None,None,1,0
 63=MC_EU House,NAPSYB,256,143,206,64,01000385,1,0,1,0,0,None,None,None,1,0
@@ -28523,7 +28534,7 @@ AttachEffect.ArmorMultiplier=99
 313=Neutral House,CABARR02,256,105,68,64,None,1,0,1,0,0,None,None,None,0,0
 314=Guild1 House,YAHADE,192,112,72,192,None,1,0,1,0,0,None,None,None,0,0
 315=Guild1 House,YAPSIS,256,118,61,64,None,1,0,1,0,0,None,None,None,1,0
-316=Guild1 House,NACLON,256,121,102,64,None,1,0,1,0,0,None,None,None,1,0
+316=Guild1 House,NACLON,256,134,70,64,None,1,0,1,0,0,None,None,None,1,0
 317=Neutral House,CABARR02,256,111,83,64,None,1,0,1,0,0,None,None,None,0,0
 318=Guild1 House,YAHADE,256,117,103,160,None,1,0,1,0,0,None,None,None,0,0
 319=Guild1 House,YARAIL,256,132,102,64,None,1,0,1,0,0,None,None,None,0,0
@@ -28774,6 +28785,7 @@ AttachEffect.ArmorMultiplier=99
 564=Guild1 House,CAMISC0X,256,52,120,64,None,1,0,1,0,0,None,None,None,0,0
 565=MC_EU House,FATRAP,256,159,239,64,None,1,0,1,0,0,None,None,None,0,0
 566=Guild1 House,CAMISC02B,256,48,120,64,None,1,0,1,0,0,None,None,None,0,0
+567=Guild1 House,YAPSIS,256,121,102,64,None,1,0,1,0,0,None,None,None,1,0
 568=Headquaters House,YAPOWR,256,82,112,64,None,1,0,1,0,0,None,None,None,1,0
 569=PCOuter House,YAPOWR,256,128,165,0,None,1,0,1,0,0,None,None,None,1,0
 570=ScorpionCell House,YARAIL,256,169,85,64,None,1,0,1,0,0,None,None,None,1,0
@@ -28837,6 +28849,7 @@ AttachEffect.ArmorMultiplier=99
 628=DominatorPC House,YAHADE,256,194,185,160,None,1,0,1,0,0,None,None,None,1,0
 629=PsiCorps House,YASPOT,256,194,188,192,None,1,0,1,0,1,None,None,None,0,0
 630=DominatorPC House,YARAIL,256,189,192,64,None,1,0,1,0,0,None,None,None,0,0
+631=Guild1 House,CAMISC02,256,135,69,64,None,1,0,1,0,0,None,None,None,0,0
 632=PCOuter House,YARAIL,256,203,126,64,None,1,0,1,0,0,None,None,None,1,0
 633=MC_EU House,ATESLA,256,139,204,64,None,1,0,1,0,0,None,None,None,1,0
 634=PsiCorps House,CACRSS3,256,143,210,64,01000397,1,0,1,0,0,None,None,None,0,0
@@ -28957,6 +28970,8 @@ AttachEffect.ArmorMultiplier=99
 749=Neutral House,CASHGIVE2,256,34,135,64,01002353,1,0,1,0,0,None,None,None,0,0
 750=DominatorPC House,YAPOWR2,256,187,200,0,None,1,0,1,0,0,None,None,None,1,0
 751=DominatorPC House,YAPOWR2,256,186,205,0,None,1,0,1,0,0,None,None,None,1,0
+752=Guild1 House,CAMISC01B,256,134,67,64,None,1,0,1,0,0,None,None,None,0,0
+753=PsiCorps House,CAEAST02,256,190,168,96,None,1,0,1,0,0,None,None,None,1,0
 
 [SuperGehennaLauncher]
 Range=47
@@ -29023,10 +29038,12 @@ SW.AITargeting.Constraints=enemy
 TechLevel=11
 
 [TERMIGUN]
+Ammo=0
 Range=6.5
 Damage=50
 
 [TERMIGUNE]
+Ammo=0
 Range=6.5
 Damage=50
 
@@ -31771,7 +31788,7 @@ PlayerControl=no
 129=Headquaters House,SHADOW,256,94,158,224,Guard,None,0,-1,0,-1,1,0
 130=Headquaters House,NAUT,256,125,124,224,Guard,None,200,-1,0,-1,1,0
 131=Chinese House,TTNK,256,57,118,96,Guard,None,0,-1,0,-1,1,0
-132=Chinese House,TTNK,256,57,121,96,Guard,None,0,-1,0,-1,1,0
+132=MC_EU House,CHRTNK,256,148,216,160,Guard,None,0,-1,0,-1,1,0
 133=Chinese House,APOC,256,61,109,64,Guard,None,0,-1,0,-1,1,0
 134=PCOuter House,SQD,256,155,143,160,Area Guard,None,0,-1,0,-1,1,0
 135=Hive House,NAUT,256,107,105,224,Guard,None,200,-1,0,-1,1,0
@@ -31920,6 +31937,7 @@ PlayerControl=no
 278=Hive House,SLED,256,108,108,224,Area Guard,None,0,-1,0,-1,1,0
 279=PsiCorps House,TELE,256,170,189,160,Guard,01001609,0,-1,0,-1,1,0
 280=Headquaters House,STING,256,90,141,224,Area Guard,None,0,-1,0,-1,1,0
+281=Chinese House,MAMM,256,57,121,96,Guard,None,0,-1,0,-1,1,0
 
 [VOLKOV]
 TechLevel=11
@@ -32631,4 +32649,4 @@ Speed=10
 JumpjetSpeed=10
 
 [Digest]
-1=/sju0GHSZ2gK5K+0oFpQca41yZ0=
+1=UvcjH7jLlM28xOFa8X7npwIqd0A=
