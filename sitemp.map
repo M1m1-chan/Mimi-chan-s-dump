@@ -22709,7 +22709,7 @@ PlayerControl=no
 
 [Guild2]
 Name=Guild2
-Side=FourthSide
+Side=GDI
 Color=Teal
 Prefix=B
 Suffix=Soviet
