@@ -19976,6 +19976,132 @@ OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
+[01002395]
+0=2,ROBO
+1=3,MTNK
+Name=Chrono341
+Group=-1
+
+[01002396]
+0=4,SREF
+Name=Chrono342
+Group=-1
+
+[01002397]
+0=1,PANTHER
+1=2,MGTK
+2=3,AMC
+Name=Chrono343
+Group=-1
+
+[01002398]
+0=0,2
+1=0,4
+2=0,1
+Name=Chrono342 SCR
+
+[01002399]
+Max=5
+Full=no
+Name=Chrono341
+Group=-1
+House=Europeans
+Script=01000180
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=MD
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01002395
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01002400]
+Max=5
+Full=no
+Name=Chrono342
+Group=-1
+House=Europeans
+Script=01002398
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=ME
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01002396
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01002401]
+Max=5
+Full=no
+Name=Chrono343
+Group=-1
+House=Europeans
+Script=01000180
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=MF
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01002397
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
 [AITHOR]
 Owner=Europeans,UnitedStates,Pacific,MC_EU
 
@@ -20222,7 +20348,7 @@ Power=-10
 01000647=7,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A,55,0,0,0,0,0,0,C,7,1,01000644,0,0,0,0,A,7,1,01000645,0,0,0,0,A,7,1,01000646,0,0,0,0,A,53,2,01001197,0,0,0,0,A,11,4,mission:sitemp16,0,0,0,0,A
 01000649=1,37,0,14,0,0,0,0,A
 01000651=0
-01000653=9,19,7,BeaconPlaced,0,0,0,0,A,113,0,14,0,0,0,0,A,56,0,19,0,0,0,0,A,53,2,01000398,0,0,0,0,A,53,2,01002129,0,0,0,0,A,53,2,01002132,0,0,0,0,A,53,2,01002134,0,0,0,0,A,53,2,01002136,0,0,0,0,A,11,4,mission:sitemp:eufree,0,0,0,0,A
+01000653=10,19,7,BeaconPlaced,0,0,0,0,A,113,0,14,0,0,0,0,A,56,0,19,0,0,0,0,A,53,2,01000398,0,0,0,0,A,53,2,01002129,0,0,0,0,A,53,2,01002132,0,0,0,0,A,53,2,01002134,0,0,0,0,A,53,2,01002136,0,0,0,0,A,11,4,mission:sitemp:eufree,0,0,0,0,A,53,2,01002402,0,0,0,0,A
 01000655=3,53,2,01001622,0,0,0,0,A,11,4,mission:sitemp:wcd,0,0,0,0,A,19,7,WarningAlarm,0,0,0,0,A
 01000667=6,7,1,01000662,0,0,0,0,A,7,1,01000663,0,0,0,0,A,7,1,01000664,0,0,0,0,A,7,1,01000665,0,0,0,0,A,7,1,01000666,0,0,0,0,A,53,2,01000557,0,0,0,0,A
 01000669=5,7,1,01000662,0,0,0,0,A,7,1,01000663,0,0,0,0,A,7,1,01000664,0,0,0,0,A,7,1,01000665,0,0,0,0,A,7,1,01000666,0,0,0,0,A
@@ -20776,6 +20902,7 @@ Power=-10
 01002389=1,60,0,0,0,0,0,0,A
 01002391=4,20,8,Vigilante,0,0,0,0,A,113,0,1,0,0,0,0,A,113,0,3,0,0,0,0,A,12,2,01002272,0,0,0,0,A
 01002393=1,20,8,BrainDead,0,0,0,0,A
+01002402=6,107,1,01002399,0,0,0,0,MD,107,1,01002400,0,0,0,0,ME,107,1,01002401,0,0,0,0,MF,41,0,256,0,0,0,0,MD,41,0,256,0,0,0,0,ME,41,0,256,0,0,0,0,MF
 
 [AddonKillWH]
 Versus.thndr=1%
@@ -20849,11 +20976,11 @@ RequiredHouses=USSR,Chinese
 TechLevel=11
 
 [BPLN]
-Speed=50
+Speed=54
 Strength=850
 
 [BPLNE]
-Speed=50
+Speed=54
 Strength=1000
 
 [BSUB]
@@ -22257,10 +22384,11 @@ PlayerControl=no
 01002387=1,13,0,4
 01002389=1,13,0,4
 01002391=1,48,0,0
-01002393=1,13,0,400
+01002393=1,13,0,390
+01002402=1,13,0,10
 
 [FA2spVersionControl]
-Version=3687
+Version=3704
 
 [FABLST]
 Armor=special
@@ -27916,6 +28044,7 @@ PlayerControl=no
 200=01002311
 201=01002319
 202=01002328
+203=01002398
 
 [SeawolfAAGun]
 Damage=20
@@ -30053,6 +30182,7 @@ EliteSecondary=none
 01002390=0,[WIN] Main Hive Sellout 1,01002389
 01002392=0,[GOTTER] Disable Music 1,01002391
 01002394=0,[MISC] Change Music 1,01002393
+01002403=0,[SPAWN] EU Chrono Assist 1,01002402
 
 [TankDropSpecial]
 Money.Amount=-2200
@@ -30283,6 +30413,9 @@ RechargeTime=5.5
 221=01002327
 222=01002354
 223=01002355
+224=01002395
+225=01002396
+226=01002397
 
 [Team1Special]
 Name=Moon Reinforcements Normal
@@ -30849,6 +30982,9 @@ FlashSidebarTabFrames=0
 477=01002356
 478=01002357
 479=01002358
+480=01002399
+481=01002400
+482=01002401
 
 [TechMissileSpecial]
 SW.Inhibitors=CACEAS,FAINHI,FAINHIB,RACC,COON,FAJAMM,YASPAT,CAKANE01,CACRSS3
@@ -31731,6 +31867,7 @@ RechargeTime=7
 01002389=UnitedStates,<none>,[WIN] Main Hive Sellout,1,1,1,1,0
 01002391=UnitedStates,<none>,[GOTTER] Disable Music,1,1,1,1,0
 01002393=UnitedStates,<none>,[MISC] Change Music,1,1,1,1,0
+01002402=UnitedStates,<none>,[SPAWN] EU Chrono Assist,1,1,1,1,0
 
 [USSR]
 Name=USSR
@@ -31798,7 +31935,7 @@ PlayerControl=no
 13=PsiCorps House,MIND,256,174,166,96,Guard,None,200,-1,0,-1,1,1
 14=MC_EU House,CHRTNK,256,137,181,224,Guard,None,0,-1,0,-1,1,0
 15=MC_EU House,AMC,256,135,198,32,Area Guard,None,0,-1,0,-1,1,0
-16=MC_EU House,PANTHER,256,138,190,0,Area Guard,None,0,-1,0,-1,1,0
+16=MC_EU House,PANTHER,256,137,190,0,Area Guard,None,0,-1,0,-1,1,0
 17=Headquaters House,DEVO,256,64,133,224,Guard,None,0,-1,0,-1,1,0
 18=PsiCorps House,YAHCR,256,183,160,224,Guard,None,0,-1,0,-1,1,0
 19=MC_EU House,MTNK,256,160,202,64,Area Guard,None,0,-1,0,-1,1,0
@@ -32492,6 +32629,9 @@ Versus.sp_reader=200%
 338=140127
 339=141171
 340=208147
+341=190138
+342=201151
+343=216146
 522=246148
 530=245149
 534=244150
@@ -32786,4 +32926,4 @@ Speed=10
 JumpjetSpeed=10
 
 [Digest]
-1=VHlgsvchB7siAComR01epm5+EJQ=
+1=d7W6TIOETND++/oE5dYgKmAASAw=
