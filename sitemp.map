@@ -21222,7 +21222,7 @@ Power=-10
 01002430=0
 01002432=2,14,0,12,0,0,0,0,A,53,2,01002430,0,0,0,0,A
 01002434=0
-01002438=2,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A,7,1,01002437,0,0,0,0,A
+01002438=3,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A,7,1,01002437,0,0,0,0,A,53,2,01002492,0,0,0,0,A
 01002440=3,14,0,21,0,0,0,0,A,54,2,01002440,0,0,0,0,A,11,4,a01:06,0,0,0,0,A
 01002442=0
 01002444=0
@@ -21249,6 +21249,7 @@ Power=-10
 01002486=3,14,0,4,0,0,0,0,A,54,2,01002486,0,0,0,0,A,53,2,01002490,0,0,0,0,A
 01002488=2,14,0,23,0,0,0,0,A,54,2,01002488,0,0,0,0,A
 01002490=2,14,0,12,0,0,0,0,A,54,2,01002490,0,0,0,0,A
+01002492=2,11,4,mission:sitemp:sbtr,0,0,0,0,A,19,7,SaboteurSelect,0,0,0,0,A
 
 [AddonKillWH]
 Versus.thndr=1%
@@ -22762,7 +22763,7 @@ PlayerControl=no
 01002430=0
 01002432=1,13,0,0
 01002434=0
-01002438=1,13,0,180
+01002438=1,13,0,200
 01002440=1,13,0,60
 01002442=0
 01002444=0
@@ -22789,9 +22790,10 @@ PlayerControl=no
 01002486=1,13,0,0
 01002488=1,13,0,120
 01002490=1,13,0,120
+01002492=1,13,0,12
 
 [FA2spVersionControl]
-Version=3851
+Version=3852
 
 [FABLST]
 Armor=special
@@ -28164,7 +28166,7 @@ Survivor.RookiePassengerChance=90%
 Survivor.VeteranPassengerChance=95%
 
 [SBTR]
-Strength=150
+Strength=180
 TechLevel=11
 SelfHealing=yes
 InhibitorRange=3
@@ -28175,6 +28177,7 @@ Owner=PsiCorps,Headquaters,ScorpionCell,PCOuter
 [SMCV]
 Strength=2500
 TechLevel=11
+Armor=special
 
 [SPORT]
 Image=none
@@ -30839,6 +30842,7 @@ EliteSecondary=none
 01002487=2,[SPATHA] Unit C Timer BEGIN 1,01002486
 01002489=2,[SPATHA] Unit C Power ONLINE REAL 1,01002488
 01002491=2,[SPATHA] Unit C Timer END REAL 1,01002490
+01002493=0,[REINF] Saboteurs Announce 1,01002492
 
 [TankDropSpecial]
 Money.Amount=-2200
@@ -32575,6 +32579,7 @@ RechargeTime=7
 01002486=UnitedStates,01002490,[SPATHA] Unit C Timer BEGIN,1,1,1,1,0
 01002488=UnitedStates,<none>,[SPATHA] Unit C Power ONLINE REAL,1,1,1,1,0
 01002490=UnitedStates,<none>,[SPATHA] Unit C Timer END REAL,1,1,1,1,0
+01002492=UnitedStates,<none>,[REINF] Saboteurs Announce,1,1,1,1,0
 
 [USSR]
 Name=USSR
@@ -33648,4 +33653,4 @@ Speed=10
 JumpjetSpeed=10
 
 [Digest]
-1=kZgc8ScEfaMpMWp6hDyJw3Md/9k=
+1=KXMLhuqZWqhaQ1T2sQjrZel2NxQ=
