@@ -20332,6 +20332,85 @@ OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
+[01002428]
+0=1,SPORT
+Name=Spatha Disabler
+Group=-1
+
+[01002429]
+Max=5
+Full=no
+Name=Spatha Disabler
+Group=-1
+House=PsiCorps
+Script=01000173
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01002428
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01002436]
+0=3,SBTR
+Name=Saboteurs
+Group=-1
+
+[01002437]
+Max=5
+Full=no
+Name=Saboteurs 1
+Group=-1
+House=USSR
+Script=01000157
+Whiner=no
+Droppod=yes
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=BN
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01002436
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+TransportWaypoint=V
+UseTransportOrigin=yes
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
 [AITHOR]
 Owner=Europeans,UnitedStates,Pacific,MC_EU
 
@@ -20416,7 +20495,7 @@ Power=-10
 01000074=4,17,0,277,0,0,0,0,A,112,0,0,0,0,0,0,JQ,53,2,01000098,0,0,0,0,A,53,2,01001293,0,0,0,0,A
 01000076=0
 01000078=5,48,0,3,0,0,0,0,AV,53,2,01000084,0,0,0,0,A,17,0,30,0,0,0,0,A,53,2,01000082,0,0,0,0,BI,53,2,01001836,0,0,0,0,A
-01000080=6,56,0,16,0,0,0,0,A,54,2,01000952,0,0,0,0,A,54,2,01000090,0,0,0,0,A,11,4,mission:sitemp:spatha,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,32,0,0,0,0,0,0,A
+01000080=7,56,0,16,0,0,0,0,A,54,2,01000952,0,0,0,0,A,54,2,01000090,0,0,0,0,A,11,4,mission:sitemp:spatha,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,32,0,0,0,0,0,0,A,54,2,01000080,0,0,0,0,A
 01000082=1,131,9,NAPSYB,0,0,0,0,90
 01000084=1,41,0,1864,0,0,0,0,AN
 01000086=8,112,0,0,0,0,0,0,AF,17,0,41,0,0,0,0,A,53,2,01000400,0,0,0,0,A,53,2,01000147,0,0,0,0,A,19,7,CameraSwitch,0,0,0,0,A,53,2,01000078,0,0,0,0,A,53,2,01000102,0,0,0,0,A,53,2,01002148,0,0,0,0,A
@@ -20513,7 +20592,7 @@ Power=-10
 01000390=1,38,0,14,0,0,0,0,A
 01000392=1,38,0,14,0,0,0,0,A
 01000394=0
-01000396=6,56,0,6,0,0,0,0,A,54,2,01000088,0,0,0,0,A,54,2,01000400,0,0,0,0,A,11,4,mission:sitemp:spatha,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,32,0,0,0,0,0,0,A
+01000396=7,56,0,6,0,0,0,0,A,54,2,01000088,0,0,0,0,A,54,2,01000400,0,0,0,0,A,11,4,mission:sitemp:spatha,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,32,0,0,0,0,0,0,A,54,2,01000396,0,0,0,0,A
 01000398=1,129,11,2,0,0,0,0,60
 01000400=2,41,0,1859,0,0,0,0,AO,54,2,01000088,0,0,0,0,A
 01000402=2,19,7,CoreDestroyed,0,0,0,0,A,53,2,01002127,0,0,0,0,A
@@ -20539,7 +20618,7 @@ Power=-10
 01000476=3,7,1,01000474,0,0,0,0,A,7,1,01000475,0,0,0,0,A,53,2,01001348,0,0,0,0,A
 01000478=3,57,0,8,0,0,0,0,A,53,2,01000480,0,0,0,0,A,54,2,01000478,0,0,0,0,A
 01000480=3,56,0,8,0,0,0,0,A,53,2,01000478,0,0,0,0,A,54,2,01000480,0,0,0,0,A
-01000489=6,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A,7,1,01000486,0,0,0,0,A,7,1,01000487,0,0,0,0,A,7,1,01000488,0,0,0,0,A,55,0,0,0,0,0,0,B,53,2,01000647,0,0,0,0,A
+01000489=7,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A,7,1,01000486,0,0,0,0,A,7,1,01000487,0,0,0,0,A,7,1,01000488,0,0,0,0,A,55,0,0,0,0,0,0,B,53,2,01000647,0,0,0,0,A,53,2,01002438,0,0,0,0,A
 01000491=1,53,2,01000493,0,0,0,0,A
 01000493=4,11,4,mission:sitemp:syckle2,0,0,0,0,A,4,1,01000497,0,0,0,0,A,11,4,mission:sitemp:syckle3,0,0,0,0,A,4,1,01000511,0,0,0,0,A
 01000498=1,14,0,15,0,0,0,0,A
@@ -20881,7 +20960,7 @@ Power=-10
 01001707=2,131,9,CAKANE01,0,0,0,0,90,11,4,mission:sitemp04a,0,0,0,0,A
 01001709=1,41,0,1858,0,0,0,0,JG
 01001711=2,41,0,1859,0,0,0,0,JG,54,2,01001709,0,0,0,0,A
-01001713=6,56,0,25,0,0,0,0,A,54,2,01001711,0,0,0,0,A,54,2,01001709,0,0,0,0,A,11,4,mission:sitemp:spatha,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,32,0,0,0,0,0,0,A
+01001713=7,56,0,25,0,0,0,0,A,54,2,01001711,0,0,0,0,A,54,2,01001709,0,0,0,0,A,11,4,mission:sitemp:spatha,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,32,0,0,0,0,0,0,A,54,2,01001713,0,0,0,0,A
 01001723=3,7,1,01001721,0,0,0,0,A,7,1,01001722,0,0,0,0,A,53,2,01001883,0,0,0,0,A
 01001725=1,115,9,MORALES,0,0,0,0,60
 01001727=1,115,9,KRUKOV,0,0,0,0,60
@@ -21137,6 +21216,39 @@ Power=-10
 01002406=6,107,1,01002400,0,0,0,0,MF,41,0,256,0,0,0,0,MF,41,0,256,0,0,0,0,ME,107,1,01002409,0,0,0,0,ME,107,1,01002401,0,0,0,0,MD,41,0,256,0,0,0,0,MD
 01002413=6,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A,7,1,01002411,0,0,0,0,A,7,1,01002412,0,0,0,0,A,7,1,01002416,0,0,0,0,A,7,1,01002418,0,0,0,0,A,7,1,01002419,0,0,0,0,A
 01002420=1,38,0,4,0,0,0,0,A
+01002422=5,53,2,01002464,0,0,0,0,A,54,2,01002466,0,0,0,0,A,53,2,01002468,0,0,0,0,A,54,2,01002470,0,0,0,0,A,134,0,141,0,0,0,0,A
+01002424=5,53,2,01002472,0,0,0,0,A,54,2,01002474,0,0,0,0,A,53,2,01002476,0,0,0,0,A,54,2,01002478,0,0,0,0,A,134,0,142,0,0,0,0,A
+01002426=5,53,2,01002482,0,0,0,0,A,54,2,01002488,0,0,0,0,A,53,2,01002486,0,0,0,0,A,54,2,01002490,0,0,0,0,A,134,0,143,0,0,0,0,A
+01002430=0
+01002432=2,14,0,12,0,0,0,0,A,53,2,01002430,0,0,0,0,A
+01002434=0
+01002438=2,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A,7,1,01002437,0,0,0,0,A
+01002440=3,14,0,21,0,0,0,0,A,54,2,01002440,0,0,0,0,A,11,4,a01:06,0,0,0,0,A
+01002442=0
+01002444=0
+01002446=3,14,0,4,0,0,0,0,A,54,2,01002446,0,0,0,0,A,53,2,01002448,0,0,0,0,A
+01002448=2,14,0,12,0,0,0,0,A,54,2,01002448,0,0,0,0,A
+01002450=0
+01002452=0
+01002454=0
+01002456=0
+01002458=0
+01002460=0
+01002462=0
+01002464=3,14,0,12,0,0,0,0,A,54,2,01002464,0,0,0,0,A,53,2,01002466,0,0,0,0,A
+01002466=2,14,0,21,0,0,0,0,A,54,2,01002466,0,0,0,0,A
+01002468=3,14,0,4,0,0,0,0,A,54,2,01002468,0,0,0,0,A,53,2,01002470,0,0,0,0,A
+01002470=2,14,0,12,0,0,0,0,A,54,2,01002470,0,0,0,0,A
+01002472=3,14,0,12,0,0,0,0,A,54,2,01002472,0,0,0,0,A,53,2,01002474,0,0,0,0,A
+01002474=2,14,0,22,0,0,0,0,A,54,2,01002474,0,0,0,0,A
+01002476=3,14,0,4,0,0,0,0,A,54,2,01002476,0,0,0,0,A,53,2,01002478,0,0,0,0,A
+01002478=2,14,0,12,0,0,0,0,A,54,2,01002478,0,0,0,0,A
+01002480=2,14,0,23,0,0,0,0,A,54,2,01002480,0,0,0,0,A
+01002482=3,14,0,12,0,0,0,0,A,54,2,01002482,0,0,0,0,A,53,2,01002488,0,0,0,0,A
+01002484=2,14,0,12,0,0,0,0,A,54,2,01002484,0,0,0,0,A
+01002486=3,14,0,4,0,0,0,0,A,54,2,01002486,0,0,0,0,A,53,2,01002490,0,0,0,0,A
+01002488=2,14,0,23,0,0,0,0,A,54,2,01002488,0,0,0,0,A
+01002490=2,14,0,12,0,0,0,0,A,54,2,01002490,0,0,0,0,A
 
 [AddonKillWH]
 Versus.thndr=1%
@@ -21197,8 +21309,10 @@ Versus.s_siren2=-85%
 Versus.camo.PassiveAcquire=no
 
 [ArmorTypes]
+inhib=special
 thndr=special
 sp_rod=special
+spatha=concrete_b
 sp_spire=wood
 sp_reader=armory
 
@@ -21292,6 +21406,10 @@ SuperWeapon=NavalMineAI
 DesignatorRange=18
 
 [CACRSS3]
+Armor=inhib
+Power=-10
+Powered=true
+TypeImmune=no
 InhibitorRange=10
 
 [CACRSS4]
@@ -21318,15 +21436,21 @@ Insignificant=no
 Armor=special
 Selectable=yes
 
+[CAGEFGL]
+Armor=special
+
 [CAKANE01]
 Name=Spatha Defense System
-Armor=steel_b
+Armor=spatha
 Image=YASPAT
+Power=-1
 Sight=12
 Points=5
 UIName=NAME:YASPAT
 Nominal=yes
-Strength=3500
+Powered=true
+Spyable=yes
+Strength=2500
 Explosion=GBLDEXP1,GBLDEXP2,GBLDEXP3,GBLDEXP4,GBLDEXP5,GBLDEXP6,GBLDEXP7,GBLDEXP8,GBLDEXP9,GBLDEXP10
 MaxDebris=12
 MinDebris=6
@@ -21340,7 +21464,10 @@ Insignificant=yes
 InhibitorRange=8
 Chronoshift.Allow=no
 MaxNumberOccupants=0
-LightningRod.Modifier=2
+LightningRod.Modifier=4
+
+[CALBFGL]
+Armor=special
 
 [CARUFGL]
 Armor=special
@@ -21385,6 +21512,9 @@ ProduceCashStartup=10000
 HunterSeeker.Ignore=yes
 HalfDamageSmokeLocation1=0,0,0
 PixelSelectionBracketDelta=9999
+
+[CAUKFGL]
+Armor=special
 
 [CHITZ]
 TechLevel=11
@@ -21561,6 +21691,9 @@ Damage=110
 18=Moon
 19=Perun
 20=PCOuter
+21=SpathaA
+22=SpathaB
+23=SpathaC
 
 [CyborgGrenade]
 ROF=30
@@ -21701,7 +21834,7 @@ ParentCountry=PsiCorps
 IQ=5
 Edge=West
 Color=Purple
-Allies=Latin House,PsiCorps House,ScorpionCell House,Headquaters House,Guild1 House,Guild2 House,MC_EU House,Hive House,LC_Defense House,PCOuter House,Neutral House
+Allies=Latin House,PsiCorps House,ScorpionCell House,Headquaters House,Guild1 House,Guild2 House,Neutral House,MC_EU House,Hive House,LC_Defense House,PCOuter House,SpathaA House,SpathaB House,SpathaC House
 Country=DominatorPC
 Credits=5000
 NodeCount=0
@@ -22623,9 +22756,42 @@ PlayerControl=no
 01002406=1,13,0,200
 01002413=1,13,0,35
 01002420=1,13,0,5
+01002422=1,1,0,3
+01002424=1,1,0,3
+01002426=1,1,0,3
+01002430=0
+01002432=1,13,0,0
+01002434=0
+01002438=1,13,0,180
+01002440=1,13,0,60
+01002442=0
+01002444=0
+01002446=1,13,0,0
+01002448=1,13,0,120
+01002450=0
+01002452=0
+01002454=0
+01002456=0
+01002458=0
+01002460=0
+01002462=0
+01002464=1,13,0,0
+01002466=1,13,0,120
+01002468=1,13,0,0
+01002470=1,13,0,120
+01002472=1,13,0,0
+01002474=1,13,0,120
+01002476=1,13,0,0
+01002478=1,13,0,120
+01002480=1,13,0,60
+01002482=1,13,0,0
+01002484=1,13,0,60
+01002486=1,13,0,0
+01002488=1,13,0,120
+01002490=1,13,0,120
 
 [FA2spVersionControl]
-Version=3782
+Version=3851
 
 [FABLST]
 Armor=special
@@ -23081,7 +23247,7 @@ ParentCountry=Headquaters
 IQ=5
 Edge=North
 Color=Pink
-Allies=Chinese House,PsiCorps House,ScorpionCell House,Headquaters House,Guild2 House,Neutral House,MC_EU House,Hive House,DominatorPC House,PCOuter House
+Allies=Chinese House,PsiCorps House,ScorpionCell House,Headquaters House,Guild2 House,Neutral House,MC_EU House,Hive House,DominatorPC House,PCOuter House,SpathaA House,SpathaB House,SpathaC House
 Country=Guild1
 Credits=3000
 NodeCount=0
@@ -23184,7 +23350,7 @@ IQ=5
 012=YAVULT,73,154
 Edge=West
 Color=Purple3
-Allies=PsiCorps House,ScorpionCell House,Guild1 House,Guild2 House,Neutral House,MC_EU House,Hive House,DominatorPC House,PCOuter House
+Allies=PsiCorps House,ScorpionCell House,Guild1 House,Guild2 House,Neutral House,MC_EU House,Hive House,DominatorPC House,PCOuter House,SpathaB House,SpathaA House,SpathaC House
 Country=Headquaters
 Credits=500000
 NodeCount=13
@@ -23211,7 +23377,7 @@ BuildTimeBuildingsMult=0.25
 IQ=0
 Edge=West
 Color=Magenta
-Allies=PsiCorps House,ScorpionCell House,Headquaters House,Guild1 House,Guild2 House,Neutral House,MC_EU House,DominatorPC House,PCOuter House
+Allies=PsiCorps House,ScorpionCell House,Headquaters House,Guild1 House,Guild2 House,Neutral House,MC_EU House,DominatorPC House,PCOuter House,SpathaA House,SpathaB House,SpathaC House
 Country=Hive
 Credits=0
 NodeCount=0
@@ -23251,6 +23417,9 @@ Range=30
 18=Moon House
 19=Perun House
 20=PCOuter House
+21=SpathaA House
+22=SpathaB House
+23=SpathaC House
 
 [ICBM]
 Armor=special
@@ -27024,7 +27193,7 @@ IQ=5
 045=GAGUN,107,193
 Edge=South
 Color=Magenta
-Allies=PsiCorps House,ScorpionCell House,Headquaters House,Guild1 House,Guild2 House,Neutral House,Hive House,DominatorPC House,PCOuter House
+Allies=PsiCorps House,ScorpionCell House,Headquaters House,Guild1 House,Guild2 House,Neutral House,Hive House,DominatorPC House,PCOuter House,SpathaA House,SpathaB House,SpathaC House
 Country=MC_EU
 Credits=500000
 NodeCount=46
@@ -27110,6 +27279,9 @@ NodeCount=0
 TechLevel=10
 PercentBuilt=100
 PlayerControl=no
+
+[MutationSpecial]
+SW.Inhibitors=SBTR
 
 [NAAIR]
 EligibileForAllyBuilding=no
@@ -27216,6 +27388,10 @@ EligibileForAllyBuilding=no
 
 [NAREFN]
 EligibileForAllyBuilding=no
+
+[NASPOT]
+Armor=special
+SuperWeapons=SpathaASpecial,SpathaBSpecial,SpathaCSpecial
 
 [NATECHC]
 Owner=USSR,Latin,Chinese
@@ -27567,7 +27743,7 @@ IQ=5
 002=YARAIL,203,126
 Edge=West
 Color=Purple
-Allies=PsiCorps House,ScorpionCell House,Headquaters House,Guild1 House,Guild2 House,MC_EU House,Hive House,DominatorPC House,Neutral House
+Allies=PsiCorps House,ScorpionCell House,Headquaters House,Guild1 House,Guild2 House,Neutral House,MC_EU House,Hive House,DominatorPC House,SpathaA House,SpathaB House,SpathaC House
 Country=PCOuter
 Credits=500000
 NodeCount=3
@@ -27637,16 +27813,16 @@ PlayerControl=no
 
 [PerunBolt]
 ROF=45
+Burst=4
 Range=12
 Damage=120
 Warhead=PerunWH
-Burst=4
 Projectile=PerunBounceP
 
 [PerunBoltE]
 ROF=45
-Range=12
 Burst=4
+Range=12
 Damage=120
 Warhead=PerunWH
 Projectile=PerunBounceP
@@ -27758,7 +27934,7 @@ IQ=5
 018=YAPSYT,213,128
 Edge=South
 Color=Purple
-Allies=Latin House,ScorpionCell House,Headquaters House,Guild1 House,Guild2 House,Neutral House,MC_EU House,Hive House,DominatorPC House,PCOuter House,LC_Defense House
+Allies=Latin House,ScorpionCell House,Headquaters House,Guild1 House,Guild2 House,Neutral House,MC_EU House,Hive House,LC_Defense House,DominatorPC House,PCOuter House,SpathaA House,SpathaB House,SpathaC House
 Country=PsiCorps
 Credits=500000
 NodeCount=19
@@ -27988,7 +28164,10 @@ Survivor.RookiePassengerChance=90%
 Survivor.VeteranPassengerChance=95%
 
 [SBTR]
+Strength=150
 TechLevel=11
+SelfHealing=yes
+InhibitorRange=3
 
 [SLED]
 Owner=PsiCorps,Headquaters,ScorpionCell,PCOuter
@@ -27996,6 +28175,23 @@ Owner=PsiCorps,Headquaters,ScorpionCell,PCOuter
 [SMCV]
 Strength=2500
 TechLevel=11
+
+[SPORT]
+Image=none
+Sight=0
+DieSound=None
+Explodes=yes
+Strength=1
+DontScore=yes
+Explosion=none
+MaxDebris=0
+Selectable=no
+DeathWeapon=SpathaDisabler
+DebrisTypes=None
+DebrisMaximums=0
+AttachEffect.Duration=-1
+DamageParticleSystems=None
+AttachEffect.Animation=INVISO
 
 [SP_Mark]
 ROF=450
@@ -28074,7 +28270,7 @@ IQ=5
 018=YAGGUN,176,97
 Edge=East
 Color=Purple2
-Allies=PsiCorps House,Headquaters House,Guild1 House,Guild2 House,Neutral House,MC_EU House,Hive House,DominatorPC House,PCOuter House
+Allies=PsiCorps House,Headquaters House,Guild1 House,Guild2 House,Neutral House,MC_EU House,Hive House,DominatorPC House,PCOuter House,SpathaA House,SpathaB House,SpathaC House
 Country=ScorpionCell
 Credits=500000
 NodeCount=19
@@ -28634,6 +28830,169 @@ Damage=20
 [SonarPulseSpecial]
 SW.AllowAI=no
 
+[SpathaA]
+Name=SpathaA
+Side=ThirdSide
+Color=Purple3
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Headquaters
+
+[SpathaA House]
+IQ=5
+Edge=West
+Color=Purple
+Allies=SpathaA House,GDI
+Country=SpathaA
+Credits=59000
+NodeCount=0
+TechLevel=10
+PercentBuilt=100
+PlayerControl=no
+
+[SpathaASpecial]
+Name=Spatha Timer
+Type=HunterSeeker
+Range=0
+Action=Custom
+UIName=mission:sitemp:spata
+EVA.Ready=
+IsPowered=true
+ShowTimer=yes
+SidebarPCX=hskricon.pcx
+SW.MaxCount=5
+Money.Amount=0
+RechargeTime=2
+SW.AITargeting=HunterSeeker
+SW.AffectsHouse=enemies
+SW.AuxBuildings=CALBFGL
+HunterSeeker.Type=
+SW.CreateRadarEvent=no
+DisableableFromShell=no
+FlashSidebarTabFrames=0
+HunterSeeker.Buildings=NASPOT
+HunterSeeker.RandomOnly=no
+SW.AITargeting.Constraints=enemy
+
+[SpathaB]
+Name=SpathaB
+Side=ThirdSide
+Color=Purple3
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Headquaters
+
+[SpathaB House]
+IQ=5
+Edge=West
+Color=Purple
+Allies=SpathaB House,GDI
+Country=SpathaB
+Credits=50000
+NodeCount=0
+TechLevel=10
+PercentBuilt=100
+PlayerControl=no
+
+[SpathaBSpecial]
+Name=Spatha Timer
+Type=HunterSeeker
+Range=0
+Action=Custom
+UIName=mission:sitemp:spatb
+EVA.Ready=
+IsPowered=true
+ShowTimer=yes
+SidebarPCX=hskricon.pcx
+SW.MaxCount=5
+Money.Amount=0
+RechargeTime=2
+SW.AITargeting=HunterSeeker
+SW.AffectsHouse=enemies
+SW.AuxBuildings=CAGEFGL
+HunterSeeker.Type=
+SW.CreateRadarEvent=no
+DisableableFromShell=no
+FlashSidebarTabFrames=0
+HunterSeeker.Buildings=NASPOT
+HunterSeeker.RandomOnly=no
+SW.AITargeting.Constraints=enemy
+
+[SpathaC]
+Name=SpathaC
+Side=ThirdSide
+Color=Purple3
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Headquaters
+
+[SpathaC House]
+IQ=5
+Edge=West
+Color=Purple
+Allies=SpathaC House,GDI
+Country=SpathaC
+Credits=5000
+NodeCount=0
+TechLevel=10
+PercentBuilt=100
+PlayerControl=no
+
+[SpathaCSpecial]
+Name=Spatha Timer
+Type=HunterSeeker
+Range=0
+Action=Custom
+UIName=mission:sitemp:spatc
+EVA.Ready=
+IsPowered=true
+ShowTimer=yes
+SidebarPCX=hskricon.pcx
+SW.MaxCount=5
+Money.Amount=0
+RechargeTime=2
+SW.AITargeting=HunterSeeker
+SW.AffectsHouse=enemies
+SW.AuxBuildings=CAUKFGL
+HunterSeeker.Type=
+SW.CreateRadarEvent=no
+DisableableFromShell=no
+FlashSidebarTabFrames=0
+HunterSeeker.Buildings=NASPOT
+HunterSeeker.RandomOnly=no
+SW.AITargeting.Constraints=enemy
+
+[SpathaDisabler]
+ROF=450
+Range=255
+Speed=100
+Damage=0
+Warhead=SpathaDisablerWH
+AreaFire=yes
+FireOnce=yes
+OmniFire=yes
+Projectile=WOCP
+DistributedWeaponFire=yes
+
+[SpathaDisablerWH]
+Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+EMP.Cap=1800
+CellSpread=12
+AffectsOwner=yes
+EMP.Duration=1800
+PercentAtMax=.1
+Versus.inhib=30%
+AffectsAllies=yes
+Versus.spatha=30%
+AffectsEnemies=yes
+PreventScatter=yes
+
 [Special]
 Name=Special
 Side=Mutant
@@ -28695,7 +29054,7 @@ AttachEffect.ArmorMultiplier=99
 17=PsiCorps House,YAMPSI,256,181,190,64,01001920,1,0,1,0,0,None,None,None,1,0
 18=PsiCorps House,YAPOWR2,256,161,178,0,None,1,0,1,0,0,None,None,None,1,0
 19=PsiCorps House,YAHADE,256,163,186,160,None,1,0,1,0,0,None,None,None,1,0
-20=PsiCorps House,CAKANE01,256,216,159,64,01000081,1,0,1,0,0,None,None,None,1,0
+20=SpathaB House,CAKANE01,256,216,159,64,01000081,1,0,1,0,0,None,None,None,1,0
 21=PsiCorps House,YARAIL,256,165,193,64,None,1,0,1,0,0,None,None,None,1,0
 22=PsiCorps House,YAHADE,256,162,175,32,01001607,1,0,1,0,0,None,None,None,1,0
 23=Headquaters House,YAHADE,256,117,126,64,None,1,0,1,0,0,None,None,None,1,0
@@ -28735,7 +29094,7 @@ AttachEffect.ArmorMultiplier=99
 57=DominatorPC House,YAPSYT,256,190,197,0,None,1,0,1,0,0,None,None,None,1,0
 58=PsiCorps House,CAYCRG02,256,174,196,64,None,1,0,1,0,0,None,None,None,0,0
 59=PCOuter House,YARAIL,256,178,161,64,01002390,1,0,1,0,0,None,None,None,1,0
-60=PsiCorps House,CACRSS3,256,134,208,64,01000397,1,0,1,0,0,None,None,None,0,0
+60=SpathaA House,CACRSS3,256,134,208,64,01000397,1,0,1,0,0,None,None,None,0,0
 61=MC_EU House,GATECH,256,146,201,64,None,1,0,1,0,0,None,None,None,1,0
 62=PsiCorps House,YAGNTC,256,202,145,64,01001676,1,0,0,0,0,None,None,None,1,0
 63=MC_EU House,NAPSYB,256,143,206,64,None,1,0,1,0,0,None,None,None,1,0
@@ -28826,7 +29185,7 @@ AttachEffect.ArmorMultiplier=99
 148=PCOuter House,YAPOWR,256,87,176,64,01002405,1,0,1,0,0,None,None,None,1,0
 149=Headquaters House,YAPOWR2,256,69,154,64,None,1,0,1,0,0,None,None,None,1,0
 150=Pacific House,NATEK,256,170,72,64,01000706,1,0,1,0,0,None,None,None,1,0
-151=Headquaters House,CAKANE01,256,89,143,64,01001714,1,0,1,0,0,None,None,None,1,0
+151=SpathaC House,CAKANE01,256,89,143,64,01001714,1,0,1,0,0,None,None,None,1,0
 152=Headquaters House,YAWEAP,256,78,153,64,None,1,0,1,0,0,None,None,None,1,0
 153=Headquaters House,YAHADE,256,75,132,224,None,1,0,1,0,0,None,None,None,1,0
 154=Guild1 House,CAMISC02,256,84,110,64,None,1,0,1,0,0,None,None,None,0,0
@@ -29169,7 +29528,7 @@ AttachEffect.ArmorMultiplier=99
 491=ScorpionCell House,YARAIL,256,173,94,64,None,1,0,1,0,0,None,None,None,1,0
 492=PCOuter House,YAGGUN,256,160,149,0,None,1,0,1,0,0,None,None,None,1,0
 493=PsiCorps House,YAHADE,256,177,201,160,None,1,0,1,0,0,None,None,None,1,0
-494=PsiCorps House,YASPAT,256,153,180,64,01000397,1,0,1,0,0,None,None,None,1,0
+494=SpathaA House,YASPAT,256,153,180,64,01000397,1,0,1,0,0,None,None,None,1,0
 495=Hive House,YAGATE2_A,256,169,167,64,None,1,0,1,0,0,None,None,None,0,0
 496=Latin House,FATRAP,256,109,10,64,None,1,0,1,0,0,None,None,None,0,0
 497=LC_Defense House,FATRAP,256,131,33,64,None,1,0,1,0,0,None,None,None,0,0
@@ -29301,7 +29660,7 @@ AttachEffect.ArmorMultiplier=99
 623=PsiCorps House,CAMISC01,256,228,153,64,None,1,0,1,0,0,None,None,None,0,0
 624=PsiCorps House,CAMISC02,256,228,151,64,None,1,0,1,0,0,None,None,None,0,0
 625=PsiCorps House,CAMISC02,256,228,149,64,None,1,0,1,0,0,None,None,None,0,0
-626=Headquaters House,CACRSS3,256,93,150,64,01001714,1,0,1,0,0,None,None,None,0,0
+626=SpathaC House,CACRSS3,256,93,150,64,01001714,1,0,1,0,0,None,None,None,0,0
 627=PsiCorps House,CAYCRG01,256,186,206,64,None,1,0,1,0,0,None,None,None,0,0
 628=DominatorPC House,YAHADE,256,194,185,160,None,1,0,1,0,0,None,None,None,1,0
 629=PsiCorps House,YASPOT,256,194,188,192,None,1,0,1,0,1,None,None,None,0,0
@@ -29309,9 +29668,9 @@ AttachEffect.ArmorMultiplier=99
 631=Guild1 House,CAMISC02,256,135,69,64,None,1,0,1,0,0,None,None,None,0,0
 632=PCOuter House,YARAIL,256,203,126,64,None,1,0,1,0,0,None,None,None,1,0
 633=MC_EU House,ATESLA,256,139,204,64,None,1,0,1,0,0,None,None,None,1,0
-634=PsiCorps House,CACRSS3,256,143,210,64,01000397,1,0,1,0,0,None,None,None,0,0
+634=SpathaA House,CACRSS3,256,143,210,64,01000397,1,0,1,0,0,None,None,None,0,0
 635=Neutral House,CAMACH,256,183,196,64,01000678,1,0,1,0,0,None,None,None,0,0
-636=PsiCorps House,CACRSS3,256,181,189,64,01000397,1,0,1,0,0,None,None,None,0,0
+636=SpathaA House,CACRSS3,256,181,189,64,01000397,1,0,1,0,0,None,None,None,0,0
 637=Neutral House,CAREDL,256,224,125,64,None,1,0,1,0,0,None,None,None,0,0
 638=Hive House,YAGATE2_A,256,207,141,64,None,1,0,1,0,0,None,None,None,0,0
 639=Hive House,YAGATE2_A,256,207,137,64,None,1,0,1,0,0,None,None,None,0,0
@@ -29332,26 +29691,26 @@ AttachEffect.ArmorMultiplier=99
 654=ScorpionCell House,YARAIL,256,170,124,64,None,1,0,1,0,0,None,None,None,1,0
 655=ScorpionCell House,YAGGUN,256,166,124,96,None,1,0,1,0,0,None,None,None,1,0
 656=DominatorPC House,YAPSYT,256,185,185,0,None,1,0,1,0,0,None,None,None,1,0
-657=PsiCorps House,CACRSS3,256,144,204,64,01000397,1,0,1,0,0,None,None,None,0,0
-658=PsiCorps House,CACRSS3,256,201,134,64,01000081,1,0,1,0,0,None,None,None,0,0
-659=PsiCorps House,CACRSS3,256,172,172,64,01000397,1,0,1,0,0,None,None,None,0,0
-660=PsiCorps House,CACRSS3,256,156,167,64,01000397,1,0,1,0,0,None,None,None,0,0
+657=SpathaA House,CACRSS3,256,144,204,64,01000397,1,0,1,0,0,None,None,None,0,0
+658=SpathaB House,CACRSS3,256,201,134,64,01000081,1,0,1,0,0,None,None,None,0,0
+659=SpathaA House,CACRSS3,256,172,172,64,01000397,1,0,1,0,0,None,None,None,0,0
+660=SpathaA House,CACRSS3,256,156,167,64,01000397,1,0,1,0,0,None,None,None,0,0
 661=PsiCorps House,CACRSS3,256,191,192,64,01000397,1,0,1,0,0,None,None,None,0,0
-662=PsiCorps House,CACRSS3,256,201,159,64,01000081,1,0,1,0,0,None,None,None,0,0
-663=PsiCorps House,CACRSS3,256,226,160,64,01000081,1,0,1,0,0,None,None,None,0,0
-664=PsiCorps House,CACRSS3,256,216,149,64,01000081,1,0,1,0,0,None,None,None,0,0
+662=SpathaB House,CACRSS3,256,201,159,64,01000081,1,0,1,0,0,None,None,None,0,0
+663=SpathaB House,CACRSS3,256,226,160,64,01000081,1,0,1,0,0,None,None,None,0,0
+664=SpathaB House,CACRSS3,256,216,149,64,01000081,1,0,1,0,0,None,None,None,0,0
 665=PsiCorps House,YAPOWR,256,165,184,0,None,1,0,1,0,0,None,None,None,1,0
 666=Neutral House,CACRAN02,256,223,123,64,None,1,0,1,0,0,None,None,None,0,0
-667=Headquaters House,CACRSS3,256,77,160,64,01001714,1,0,1,0,0,None,None,None,0,0
-668=Headquaters House,CACRSS3,256,94,171,64,01001714,1,0,1,0,0,None,None,None,0,0
-669=Headquaters House,CACRSS3,256,111,167,64,01001714,1,0,1,0,0,None,None,None,0,0
-670=Headquaters House,CACRSS3,256,106,149,64,01001714,1,0,1,0,0,None,None,None,0,0
-671=Headquaters House,CACRSS3,256,110,126,64,01001714,1,0,1,0,0,None,None,None,0,0
-672=Headquaters House,CACRSS3,256,82,142,64,01001714,1,0,1,0,0,None,None,None,0,0
-673=PsiCorps House,CACRSS3,256,129,174,64,01000397,1,0,1,0,0,None,None,None,0,0
+667=SpathaC House,CACRSS3,256,77,160,64,01001714,1,0,1,0,0,None,None,None,0,0
+668=SpathaC House,CACRSS3,256,94,171,64,01001714,1,0,1,0,0,None,None,None,0,0
+669=SpathaC House,CACRSS3,256,111,167,64,01001714,1,0,1,0,0,None,None,None,0,0
+670=SpathaC House,CACRSS3,256,106,149,64,01001714,1,0,1,0,0,None,None,None,0,0
+671=SpathaC House,CACRSS3,256,110,126,64,01001714,1,0,1,0,0,None,None,None,0,0
+672=SpathaC House,CACRSS3,256,82,142,64,01001714,1,0,1,0,0,None,None,None,0,0
+673=SpathaA House,CACRSS3,256,129,174,64,01000397,1,0,1,0,0,None,None,None,0,0
 674=PsiCorps House,YAGATE_A,256,168,187,64,None,1,0,1,0,0,None,None,None,1,0
-675=PsiCorps House,CACRSS3,256,181,156,64,01000081,1,0,1,0,0,None,None,None,0,0
-676=PsiCorps House,CACRSS3,256,181,177,64,01000397,1,0,1,0,0,None,None,None,0,0
+675=SpathaB House,CACRSS3,256,181,156,64,01000081,1,0,1,0,0,None,None,None,0,0
+676=SpathaA House,CACRSS3,256,181,177,64,01000397,1,0,1,0,0,None,None,None,0,0
 677=UnitedStates House,GAROD,256,60,154,64,01001620,1,0,1,0,0,None,None,None,0,0
 678=UnitedStates House,GAROD,256,81,44,64,01001620,1,0,1,0,0,None,None,None,0,0
 679=ScorpionCell House,CAMISC02B,256,135,113,64,None,1,0,1,0,0,None,None,None,0,0
@@ -29429,10 +29788,10 @@ AttachEffect.ArmorMultiplier=99
 751=Headquaters House,YARAIL,256,84,118,64,None,1,0,1,0,0,None,None,None,1,0
 752=Guild1 House,CAMISC01B,256,134,67,64,None,1,0,1,0,0,None,None,None,0,0
 753=PsiCorps House,CAEAST02,256,190,168,96,None,1,0,1,0,0,None,None,None,1,0
-754=PsiCorps House,CACRSS3,256,152,213,64,01000397,1,0,1,0,0,None,None,None,0,0
-755=PsiCorps House,CACRSS3,256,147,199,64,01000397,1,0,1,0,0,None,None,None,0,0
-756=PsiCorps House,CACRSS3,256,141,197,64,01000397,1,0,1,0,0,None,None,None,0,0
-757=PsiCorps House,CACRSS3,256,140,218,64,01000397,1,0,1,0,0,None,None,None,0,0
+754=SpathaA House,CACRSS3,256,152,213,64,01000397,1,0,1,0,0,None,None,None,0,0
+755=SpathaA House,CACRSS3,256,147,199,64,01000397,1,0,1,0,0,None,None,None,0,0
+756=SpathaA House,CACRSS3,256,141,197,64,01000397,1,0,1,0,0,None,None,None,0,0
+757=SpathaA House,CACRSS3,256,140,218,64,01000397,1,0,1,0,0,None,None,None,0,0
 758=Neutral House,CAFHOSP,256,204,104,64,01002364,1,0,1,0,0,None,None,None,0,0
 759=Neutral House,CAMACH,256,199,100,64,01002364,1,0,1,0,0,None,None,None,0,0
 760=PCOuter House,YAPOWR,256,156,162,64,01002380,1,0,1,0,0,None,None,None,1,0
@@ -29440,6 +29799,13 @@ AttachEffect.ArmorMultiplier=99
 762=PCOuter House,YAPOWR,256,156,159,64,01002380,1,0,1,0,0,None,None,None,1,0
 763=PCOuter House,YAPOWR,256,187,151,64,None,1,0,1,0,0,None,None,None,1,0
 764=PCOuter House,YAPOWR,256,185,153,64,None,1,0,1,0,0,None,None,None,1,0
+765=SpathaA House,FATRAP,256,123,224,64,01002465,1,0,1,0,0,None,None,None,0,0
+766=SpathaB House,FATRAP,256,127,228,64,01002473,1,0,1,0,0,None,None,None,0,0
+767=SpathaC House,FATRAP,256,131,232,64,01002483,1,0,1,0,0,None,None,None,0,0
+768=Latin House,NASPOT,256,113,14,64,None,1,0,1,0,0,None,None,None,0,0
+769=Neutral House,CALBFGL,256,113,17,64,01002469,1,0,1,0,0,None,None,None,0,0
+770=Neutral House,CAGEFGL,256,114,16,64,01002477,1,0,1,0,0,None,None,None,0,0
+771=Neutral House,CAUKFGL,256,115,15,64,01002487,1,0,1,0,0,None,None,None,0,0
 
 [SuperComet]
 Damage=110
@@ -29474,6 +29840,9 @@ ROF=90
 303=ThunderStrikeSpecial
 304=ReservesAISpecial
 305=MoondropTest
+306=SpathaASpecial
+307=SpathaBSpecial
+308=SpathaCSpecial
 
 [SyckleDropSpecial]
 Name=Tank Drop
@@ -29716,7 +30085,7 @@ EliteSecondary=none
 01000075=0,[INTRO] 04 Switch To PC Spatha 1,01000074
 01000077=0,[SPAWN] PC START------------------------------------------- 1,01000076
 01000079=0,[INTRO] 06 Beacon EU 1,01000078
-01000081=0,[SPATHA] Unit B Destroyed 1,01000080
+01000081=2,[SPATHA] Unit B Destroyed 1,01000080
 01000083=0,[INTRO] 06 Beacon EU flash 1,01000082
 01000085=2,[BEACON] EU Icon 1,01000084
 01000087=0,[INTRO] 05 Spatha EU 1,01000086
@@ -29813,7 +30182,7 @@ EliteSecondary=none
 01000391=0,OBSOLETE7 1,01000390
 01000393=0,OBSOLETE9 1,01000392
 01000395=0,OBSOLETE3 1,01000394
-01000397=0,[SPATHA] Unit A Destroyed 1,01000396
+01000397=2,[SPATHA] Unit A Destroyed 1,01000396
 01000399=0,WCD First Charge 1,01000398
 01000401=2,[SPATHA] Unit A mark2 1,01000400
 01000435=2,[SPAWN] HQ Vat72 a 1,01000434
@@ -30180,7 +30549,7 @@ EliteSecondary=none
 01001708=0,[INTRO] 05 Spatha HQ Flash 1,01001707
 01001710=2,[SPATHA] HQ Icon 1,01001709
 01001712=2,[SPATHA] Unit C mark2 1,01001711
-01001714=0,[SPATHA] Unit C Destroyed 1,01001713
+01001714=2,[SPATHA] Unit C Destroyed 1,01001713
 01001724=0,[DIFF] EM Extra TTNK+BURA 1,01001723
 01001726=0,[MORALES] Cameo Flash 1,01001725
 01001728=0,[HEROES] KRUKOV Flash 1,01001727
@@ -30437,6 +30806,39 @@ EliteSecondary=none
 01002407=0,[SPAWN] EU Chrono Wave2 1,01002406
 01002414=0,[REINF] After HQ Destroyed 1,01002413
 01002421=0,[MISC] PC Make CN Enemy 1,01002420
+01002423=2,[SPATHA] Unit A Infiltrated 1,01002422
+01002425=2,[SPATHA] Unit B Infiltrated 1,01002424
+01002427=2,[SPATHA] Unit C Infiltrated 1,01002426
+01002431=0,New Trigger 1,01002430
+01002433=2,--------------------- 1,01002432
+01002435=0,New Trigger 1,01002434
+01002439=0,[REINF] Saboteurs 1,01002438
+01002441=2,-------------------------- 1,01002440
+01002443=0,New Trigger 1,01002442
+01002445=0,New Trigger 1,01002444
+01002447=2,---------------------------------------------- 1,01002446
+01002449=2,--------------------------------- 1,01002448
+01002451=0,New Trigger 1,01002450
+01002453=0,New Trigger 1,01002452
+01002455=0,New Trigger 1,01002454
+01002457=0,New Trigger 1,01002456
+01002459=0,New Trigger 1,01002458
+01002461=0,New Trigger 1,01002460
+01002463=0,New Trigger 1,01002462
+01002465=2,[SPATHA] Unit A Power OFFLINE 1,01002464
+01002467=2,[SPATHA] Unit A Power ONLINE 1,01002466
+01002469=2,[SPATHA] Unit A Timer BEGIN 1,01002468
+01002471=2,[SPATHA] Unit A Timer END 1,01002470
+01002473=2,[SPATHA] Unit B Power OFFLINE 1,01002472
+01002475=2,[SPATHA] Unit B Power ONLINE 1,01002474
+01002477=2,[SPATHA] Unit B Timer BEGIN 1,01002476
+01002479=2,[SPATHA] Unit B Timer END 1,01002478
+01002481=2,[SPATHA] Unit C Power ONLINE 1,01002480
+01002483=2,[SPATHA] Unit C Power OFFLINE 1,01002482
+01002485=2,[SPATHA] Unit C Timer END 1,01002484
+01002487=2,[SPATHA] Unit C Timer BEGIN 1,01002486
+01002489=2,[SPATHA] Unit C Power ONLINE REAL 1,01002488
+01002491=2,[SPATHA] Unit C Timer END REAL 1,01002490
 
 [TankDropSpecial]
 Money.Amount=-2200
@@ -30674,6 +31076,8 @@ RechargeTime=5.5
 228=01002410
 229=01002415
 230=01002417
+231=01002428
+232=01002436
 
 [Team1Special]
 Name=Moon Reinforcements Normal
@@ -31249,6 +31653,8 @@ FlashSidebarTabFrames=0
 486=01002416
 487=01002418
 488=01002419
+489=01002429
+490=01002437
 
 [TechMissileSpecial]
 SW.Inhibitors=CACEAS,FAINHI,FAINHIB,RACC,COON,FAJAMM,YASPAT,CAKANE01,CACRSS3
@@ -31415,7 +31821,7 @@ RechargeTime=7
 01000074=UnitedStates,<none>,[INTRO] 04 Switch To PC Spatha,1,1,1,1,0
 01000076=UnitedStates,<none>,[SPAWN] PC START-------------------------------------------,1,1,1,1,0
 01000078=MC_EU,<none>,[INTRO] 06 Beacon EU,1,1,1,1,0
-01000080=UnitedStates,<none>,[SPATHA] Unit B Destroyed,0,1,1,1,0
+01000080=UnitedStates,01002424,[SPATHA] Unit B Destroyed,0,1,1,1,0
 01000082=MC_EU,<none>,[INTRO] 06 Beacon EU flash,1,1,1,1,0
 01000084=UnitedStates,<none>,[BEACON] EU Icon,1,1,1,1,0
 01000086=MC_EU,<none>,[INTRO] 05 Spatha EU,1,1,1,1,0
@@ -31512,7 +31918,7 @@ RechargeTime=7
 01000390=Headquaters,<none>,OBSOLETE7,1,1,1,1,0
 01000392=ScorpionCell,<none>,OBSOLETE9,1,1,1,1,0
 01000394=Guild1,<none>,OBSOLETE3,1,1,1,1,0
-01000396=UnitedStates,<none>,[SPATHA] Unit A Destroyed,0,1,1,1,0
+01000396=UnitedStates,01002422,[SPATHA] Unit A Destroyed,0,1,1,1,0
 01000398=Europeans,<none>,WCD First Charge,1,1,1,1,0
 01000400=UnitedStates,<none>,[SPATHA] Unit A mark2,1,1,1,1,0
 01000402=USSR,<none>,[EE] SIX HOT RODS,0,1,1,1,0
@@ -31880,7 +32286,7 @@ RechargeTime=7
 01001707=Headquaters,<none>,[INTRO] 05 Spatha HQ Flash,1,1,1,1,0
 01001709=UnitedStates,<none>,[SPATHA] HQ Icon,1,1,1,1,0
 01001711=UnitedStates,<none>,[SPATHA] Unit C mark2,1,1,1,1,0
-01001713=UnitedStates,<none>,[SPATHA] Unit C Destroyed,0,1,1,1,0
+01001713=UnitedStates,01002426,[SPATHA] Unit C Destroyed,0,1,1,1,0
 01001723=UnitedStates,<none>,[DIFF] EM Extra TTNK+BURA,1,1,1,0,0
 01001725=UnitedStates,<none>,[MORALES] Cameo Flash,1,1,1,1,0
 01001727=UnitedStates,<none>,[HEROES] KRUKOV Flash,1,1,1,1,0
@@ -32136,6 +32542,39 @@ RechargeTime=7
 01002406=UnitedStates,<none>,[SPAWN] EU Chrono Wave2,1,1,1,1,0
 01002413=UnitedStates,<none>,[REINF] After HQ Destroyed,1,1,1,1,0
 01002420=PsiCorps,<none>,[MISC] PC Make CN Enemy,1,1,1,1,0
+01002422=Latin,<none>,[SPATHA] Unit A Infiltrated,0,1,1,1,0
+01002424=Latin,<none>,[SPATHA] Unit B Infiltrated,0,1,1,1,0
+01002426=Latin,<none>,[SPATHA] Unit C Infiltrated,0,1,1,1,0
+01002430=UnitedStates,<none>,New Trigger,0,1,1,1,0
+01002432=UnitedStates,<none>,---------------------,1,1,1,1,0
+01002434=UnitedStates,<none>,New Trigger,0,1,1,1,0
+01002438=UnitedStates,<none>,[REINF] Saboteurs,1,1,1,1,0
+01002440=UnitedStates,<none>,--------------------------,1,1,1,1,0
+01002442=UnitedStates,<none>,New Trigger,0,1,1,1,0
+01002444=UnitedStates,<none>,New Trigger,0,1,1,1,0
+01002446=UnitedStates,<none>,----------------------------------------------,1,1,1,1,0
+01002448=UnitedStates,<none>,---------------------------------,1,1,1,1,0
+01002450=UnitedStates,<none>,New Trigger,0,1,1,1,0
+01002452=UnitedStates,<none>,New Trigger,0,1,1,1,0
+01002454=UnitedStates,<none>,New Trigger,0,1,1,1,0
+01002456=UnitedStates,<none>,New Trigger,0,1,1,1,0
+01002458=UnitedStates,<none>,New Trigger,0,1,1,1,0
+01002460=UnitedStates,<none>,New Trigger,0,1,1,1,0
+01002462=UnitedStates,<none>,New Trigger,0,1,1,1,0
+01002464=UnitedStates,01002466,[SPATHA] Unit A Power OFFLINE,1,1,1,1,0
+01002466=UnitedStates,<none>,[SPATHA] Unit A Power ONLINE,1,1,1,1,0
+01002468=UnitedStates,01002470,[SPATHA] Unit A Timer BEGIN,1,1,1,1,0
+01002470=UnitedStates,<none>,[SPATHA] Unit A Timer END,1,1,1,1,0
+01002472=UnitedStates,01002474,[SPATHA] Unit B Power OFFLINE,1,1,1,1,0
+01002474=UnitedStates,<none>,[SPATHA] Unit B Power ONLINE,1,1,1,1,0
+01002476=UnitedStates,01002478,[SPATHA] Unit B Timer BEGIN,1,1,1,1,0
+01002478=UnitedStates,<none>,[SPATHA] Unit B Timer END,1,1,1,1,0
+01002480=UnitedStates,<none>,[SPATHA] Unit C Power ONLINE,1,1,1,1,0
+01002482=UnitedStates,01002488,[SPATHA] Unit C Power OFFLINE,1,1,1,1,0
+01002484=UnitedStates,<none>,[SPATHA] Unit C Timer END,1,1,1,1,0
+01002486=UnitedStates,01002490,[SPATHA] Unit C Timer BEGIN,1,1,1,1,0
+01002488=UnitedStates,<none>,[SPATHA] Unit C Power ONLINE REAL,1,1,1,1,0
+01002490=UnitedStates,<none>,[SPATHA] Unit C Timer END REAL,1,1,1,1,0
 
 [USSR]
 Name=USSR
@@ -32557,6 +32996,7 @@ Versus.sp_reader=250%
 3006=ThunderStrikeWH
 3007=ThunderUnitScannerWH
 3008=ThunderKillerWH
+3009=SpathaDisablerWH
 
 [Waypoints]
 0=114046
@@ -32903,6 +33343,12 @@ Versus.sp_reader=250%
 341=190138
 342=201151
 343=216146
+344=170096
+345=176126
+346=204141
+347=173178
+348=155175
+349=149218
 522=246148
 530=245149
 534=244150
@@ -32918,6 +33364,7 @@ Versus.sp_reader=250%
 3007=ThunderStrike
 3008=ThunderUnitScanner
 3009=ThunderKiller
+3010=SpathaDisabler
 
 [YAAIRF]
 Capturable=false
@@ -33152,11 +33599,15 @@ Prerequisite=YACNST,YATECH
 Capturable=false
 
 [YASPAT]
-Strength=3200
+Armor=spatha
+Power=-10
+Powered=true
+Spyable=yes
+Strength=2500
 ThreatPosed=50
 LightningRod=yes
 InhibitorRange=8
-LightningRod.Modifier=2
+LightningRod.Modifier=4
 
 [YATECH]
 Capturable=false
@@ -33197,4 +33648,4 @@ Speed=10
 JumpjetSpeed=10
 
 [Digest]
-1=aXYHTfcmPTAy2U3U/k/TnJvthHo=
+1=kZgc8ScEfaMpMWp6hDyJw3Md/9k=
