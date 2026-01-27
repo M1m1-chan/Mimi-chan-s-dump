@@ -20492,7 +20492,7 @@ Power=-10
 01000056=1,14,0,9,0,0,0,0,A
 01000058=1,32,0,0,0,0,0,0,A
 01000065=7,7,1,01000063,0,0,0,0,A,7,1,01000064,0,0,0,0,A,7,1,01000071,0,0,0,0,A,7,1,01000072,0,0,0,0,A,7,1,01000073,0,0,0,0,A,53,2,01000698,0,0,0,0,A,53,2,01000692,0,0,0,0,A
-01000074=4,17,0,277,0,0,0,0,A,112,0,0,0,0,0,0,JQ,53,2,01000098,0,0,0,0,A,53,2,01001293,0,0,0,0,A
+01000074=5,17,0,277,0,0,0,0,A,112,0,0,0,0,0,0,JQ,53,2,01000098,0,0,0,0,A,53,2,01001293,0,0,0,0,A,19,7,CameraSwitch,0,0,0,0,A
 01000076=0
 01000078=5,48,0,3,0,0,0,0,AV,53,2,01000084,0,0,0,0,A,17,0,30,0,0,0,0,A,53,2,01000082,0,0,0,0,BI,53,2,01001836,0,0,0,0,A
 01000080=7,56,0,16,0,0,0,0,A,54,2,01000952,0,0,0,0,A,54,2,01000090,0,0,0,0,A,11,4,mission:sitemp:spatha,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,32,0,0,0,0,0,0,A,54,2,01000080,0,0,0,0,A
@@ -21113,7 +21113,7 @@ Power=-10
 01002138=0
 01002140=6,12,2,01001634,0,0,0,0,A,12,2,01001642,0,0,0,0,A,12,2,01001646,0,0,0,0,A,12,2,01001640,0,0,0,0,A,12,2,01001644,0,0,0,0,A,12,2,01001648,0,0,0,0,A
 01002142=1,41,0,2239,0,0,0,0,KT
-01002144=6,112,0,0,0,0,0,0,FL,11,4,mission:sitemp08b,0,0,0,0,A,19,7,CameraSwitch,0,0,0,0,A,17,0,328,0,0,0,0,A,53,2,01002146,0,0,0,0,A,53,2,01000119,0,0,0,0,A
+01002144=5,112,0,0,0,0,0,0,FL,53,2,01000119,0,0,0,0,A,19,7,CameraSwitch,0,0,0,0,A,17,0,328,0,0,0,0,A,53,2,01002146,0,0,0,0,A
 01002146=1,131,9,YAHIVE,0,0,0,0,90
 01002148=1,11,4,mission:sitemp07,0,0,0,0,A
 01002150=5,7,1,01000593,0,0,0,0,A,7,1,01000594,0,0,0,0,A,7,1,01000595,0,0,0,0,A,7,1,01000596,0,0,0,0,A,7,1,01000597,0,0,0,0,A
@@ -21888,7 +21888,7 @@ IsPowered=true
 ShowTimer=no
 SidebarPCX=trapicon.pcx
 SW.AutoFire=yes
-RechargeTime=0.5
+RechargeTime=1
 SW.Animation=SMOKESCRN
 SW.Deferment=15
 SW.ShowCameo=false
@@ -22033,7 +22033,7 @@ PlayerControl=no
 01000056=1,13,0,0
 01000058=1,8,0,0
 01000065=1,13,0,9
-01000074=1,13,0,29
+01000074=1,13,0,26
 01000076=1,13,0,8
 01000078=1,13,0,8
 01000080=1,48,0,8
@@ -22048,13 +22048,13 @@ PlayerControl=no
 01000098=1,13,0,0
 01000100=1,13,0,0
 01000102=1,13,0,4
-01000104=1,13,0,7
+01000104=1,13,0,5
 01000106=1,13,0,1
 01000108=1,13,0,1
 01000110=1,13,0,1
 01000112=1,36,0,4
 01000114=1,13,0,3
-01000119=1,13,0,10
+01000119=1,13,0,7
 01000124=1,8,0,0
 01000145=1,8,0,0
 01000147=1,13,0,2
@@ -22199,14 +22199,14 @@ PlayerControl=no
 01000649=1,8,0,0
 01000651=0
 01000653=1,8,0,0
-01000655=1,13,0,620
+01000655=1,13,0,650
 01000667=1,13,0,5
 01000669=1,13,0,5
 01000671=1,13,0,30
 01000673=1,13,0,15
 01000675=1,13,0,20
 01000677=1,8,0,0
-01000692=1,13,0,22
+01000692=1,13,0,16
 01000694=1,13,0,0
 01000696=1,13,0,0
 01000698=1,13,0,23
@@ -22490,7 +22490,7 @@ PlayerControl=no
 01001683=1,81,2,1,KRUKOV
 01001685=1,8,0,0
 01001687=1,8,0,0
-01001689=1,13,0,7
+01001689=1,13,0,5
 01001691=1,13,0,1
 01001693=1,13,0,1
 01001695=1,13,0,120
@@ -22534,7 +22534,7 @@ PlayerControl=no
 01001830=2,13,0,1,37,0,24
 01001832=1,13,0,1
 01001834=1,13,0,1
-01001836=1,13,0,12
+01001836=1,13,0,10
 01001838=1,13,0,270
 01001840=2,51,0,50,36,0,8
 01001842=2,51,0,50,36,0,8
@@ -22654,7 +22654,7 @@ PlayerControl=no
 01002138=1,8,0,0
 01002140=1,36,0,19
 01002142=1,13,0,2
-01002144=1,13,0,7
+01002144=1,13,0,5
 01002146=1,13,0,1
 01002148=1,13,0,6
 01002150=1,13,0,15
@@ -22793,7 +22793,7 @@ PlayerControl=no
 01002492=1,13,0,12
 
 [FA2spVersionControl]
-Version=3852
+Version=3883
 
 [FABLST]
 Armor=special
@@ -26975,9 +26975,9 @@ SW.Sound=SpaceBarrageFlyby
 IsPowered=false
 SW.MaxCount=-1
 RechargeTime=.02
-DropPod.Types=SHOCK,DESOR,CYBO,CYBO,SHOCK
-DropPod.Maximum=12
-DropPod.Minimum=9
+DropPod.Types=SHOCK,DESOR,CYBO,CYBO,SHOCK,CYBO
+DropPod.Maximum=10
+DropPod.Minimum=10
 SW.RangeMaximum=1
 DropPod.Veterancy=2
 
@@ -27296,8 +27296,13 @@ InhibitorRange=6
 [NACNST]
 Strength=2750
 Unsellable=yes
-SuperWeapons=Team1Special,SyckleDropSpecial,ThunderStrikeSpecial,Team3Special,Team2Special
+SuperWeapons=Team1Special,SyckleDropSpecial,ThunderStrikeSpecial,Team3Special,Team2Special,MaintenanceSpecial
 EligibileForAllyBuilding=no
+
+[MaintenanceSpecial]
+SW.AITargeting=Self
+SW.AutoFire=yes
+SW.AllowPlayer=no
 
 [NADROP]
 Cost=0
@@ -28175,9 +28180,9 @@ InhibitorRange=3
 Owner=PsiCorps,Headquaters,ScorpionCell,PCOuter
 
 [SMCV]
+Armor=special
 Strength=2500
 TechLevel=11
-Armor=special
 
 [SPORT]
 Image=none
@@ -31099,7 +31104,7 @@ RechargeTime=4
 SW.Animation=NOANIM
 SW.Deferment=20
 Deliver.Types=NADROP
-SW.Inhibitors=FAINHI,FAINHIB,RACC,COON,FAJAMM,YASPAT,CAKANE01,YACNST,YAPPET,CACRSS3
+SW.Inhibitors=FAINHI,FAINHIB,RACC,COON,FAJAMM,YASPAT,CAKANE01,YACNST,CACRSS3
 LineMultiplier=1
 SW.AITargeting=None
 SW.InitialReady=yes
@@ -31127,7 +31132,7 @@ RechargeTime=4
 SW.Animation=NOANIM
 SW.Deferment=20
 Deliver.Types=NADROP
-SW.Inhibitors=FAINHI,FAINHIB,RACC,COON,FAJAMM,YASPAT,CAKANE01,YACNST,YAPPET,CACRSS3
+SW.Inhibitors=FAINHI,FAINHIB,RACC,COON,FAJAMM,YASPAT,CAKANE01,YACNST,CACRSS3
 LineMultiplier=1
 SW.AITargeting=None
 SW.InitialReady=yes
@@ -31155,7 +31160,7 @@ RechargeTime=4
 SW.Animation=NOANIM
 SW.Deferment=20
 Deliver.Types=NADROP
-SW.Inhibitors=FAINHI,FAINHIB,RACC,COON,FAJAMM,YASPAT,CAKANE01,YACNST,YAPPET,CACRSS3
+SW.Inhibitors=FAINHI,FAINHIB,RACC,COON,FAJAMM,YASPAT,CAKANE01,YACNST,CACRSS3
 LineMultiplier=1
 SW.AITargeting=None
 SW.InitialReady=yes
@@ -31661,6 +31666,7 @@ FlashSidebarTabFrames=0
 490=01002437
 
 [TechMissileSpecial]
+RechargeTime=8
 SW.Inhibitors=CACEAS,FAINHI,FAINHIB,RACC,COON,FAJAMM,YASPAT,CAKANE01,CACRSS3
 
 [Terrain]
@@ -31846,8 +31852,8 @@ RechargeTime=7
 01000119=Chinese,<none>,[INTRO] 11 Player Forces,1,1,1,1,0
 01000124=UnitedStates,<none>,[SETUP] Unit Facings,1,1,1,1,0
 01000145=UnitedStates,<none>,[SETUP] Starting Forces,0,1,1,1,0
-01000147=PsiCorps,<none>,[INTRO] 05 Spatha EU Flash,1,1,1,1,0
-01000149=PsiCorps,<none>,[INTRO] 04 Spatha PC Flash,1,1,1,1,0
+01000147=SpathaA,<none>,[INTRO] 05 Spatha EU Flash,1,1,1,1,0
+01000149=SpathaB,<none>,[INTRO] 04 Spatha PC Flash,1,1,1,1,0
 01000151=UnitedStates,<none>,[INTRO] 11 Control Online,1,1,1,1,0
 01000153=UnitedStates,<none>,[SETUP] Kill HH Again,0,1,1,1,0
 01000160=UnitedStates,<none>,[DEBUG] Perun Spawn,1,1,1,1,0
@@ -32287,7 +32293,7 @@ RechargeTime=7
 01001699=UnitedStates,<none>,[HIVE] Main Icon,1,1,1,1,0
 01001703=UnitedStates,<none>,[TEXT] Hive First Warning,1,1,1,1,0
 01001705=MC_EU,<none>,[INTRO] 05 Spatha HQ,1,1,1,1,0
-01001707=Headquaters,<none>,[INTRO] 05 Spatha HQ Flash,1,1,1,1,0
+01001707=SpathaC,<none>,[INTRO] 05 Spatha HQ Flash,1,1,1,1,0
 01001709=UnitedStates,<none>,[SPATHA] HQ Icon,1,1,1,1,0
 01001711=UnitedStates,<none>,[SPATHA] Unit C mark2,1,1,1,1,0
 01001713=UnitedStates,01002426,[SPATHA] Unit C Destroyed,0,1,1,1,0
@@ -33580,7 +33586,6 @@ EligibileForAllyBuilding=yes
 [YAPPET]
 Strength=1500
 TechLevel=11
-InhibitorRange=12
 
 [YAPSIS]
 Armor=sp_spire
@@ -33653,4 +33658,4 @@ Speed=10
 JumpjetSpeed=10
 
 [Digest]
-1=KXMLhuqZWqhaQ1T2sQjrZel2NxQ=
+1=wOclPZf+D/iFw8gxTHWm26BMjYc=
