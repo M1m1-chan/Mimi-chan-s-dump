@@ -20628,7 +20628,7 @@ Power=-10
 01000370=1,14,0,3,0,0,0,0,A
 01000375=4,11,4,mission:sitemp:syckle4,0,0,0,0,A,14,0,3,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,114,0,1,0,0,0,0,A
 01000378=2,41,0,1991,0,0,0,0,CA,107,1,01000381,0,0,0,0,CA
-01000382=7,14,0,17,0,0,0,0,A,11,4,mission:sitemp:yappet,0,0,0,0,A,19,7,WarningAlarm,0,0,0,0,A,38,0,3,0,0,0,0,A,53,2,01001528,0,0,0,0,A,17,0,352,0,0,0,0,A,55,0,0,0,0,0,0,MO
+01000382=7,14,0,17,0,0,0,0,A,11,4,mission:sitemp:yappet,0,0,0,0,A,19,7,WarningAlarm,0,0,0,0,A,38,0,3,0,0,0,0,A,53,2,01001528,0,0,0,0,A,17,0,354,0,0,0,0,A,55,0,0,0,0,0,0,MO
 01000384=11,54,2,01000084,0,0,0,0,A,53,2,01000653,0,0,0,0,A,53,2,01001624,0,0,0,0,A,54,2,01000378,0,0,0,0,A,53,2,01001284,0,0,0,0,A,53,2,01000018,0,0,0,0,A,36,0,1,0,0,0,0,A,54,2,01000655,0,0,0,0,A,53,2,01001656,0,0,0,0,A,54,2,01001844,0,0,0,0,A,57,0,5,0,0,0,0,A
 01000386=7,38,0,6,0,0,0,0,A,38,0,7,0,0,0,0,A,38,0,8,0,0,0,0,A,38,0,9,0,0,0,0,A,37,0,3,0,0,0,0,A,37,0,4,0,0,0,0,A,38,0,15,0,0,0,0,A
 01000388=1,38,0,14,0,0,0,0,A
@@ -20979,7 +20979,7 @@ Power=-10
 01001650=3,53,2,01001634,0,0,0,0,A,53,2,01001642,0,0,0,0,A,53,2,01001646,0,0,0,0,A
 01001654=3,63,0,250,0,0,0,0,A,63,0,250,0,0,0,0,A,63,0,250,0,0,0,0,A
 01001656=2,14,0,1,0,0,0,0,A,54,2,01001656,0,0,0,0,A
-01001663=1,61,0,0,0,0,0,0,A
+01001663=1,14,0,10,0,0,0,0,A
 01001665=1,11,4,gui:partitlesov07md,0,0,0,0,A
 01001667=2,11,4,sice:krukfallen,0,0,0,0,A,53,2,01001673,0,0,0,0,A
 01001669=2,11,4,mission:sitemp:moralfall,0,0,0,0,A,53,2,01001671,0,0,0,0,A
@@ -21198,7 +21198,7 @@ Power=-10
 01002243=1,4,1,01002240,0,0,0,0,A
 01002245=1,4,1,01002239,0,0,0,0,A
 01002247=2,0,0,0,0,0,0,0,A,56,0,42,0,0,0,0,A
-01002249=2,38,0,4,0,0,0,0,A,38,0,16,0,0,0,0,A
+01002249=3,38,0,4,0,0,0,0,A,38,0,16,0,0,0,0,A,53,2,01002497,0,0,0,0,A
 01002252=3,32,0,0,0,0,0,0,A,146,11,18,0,0,0,0,500,53,2,01002254,0,0,0,0,A
 01002254=3,129,11,97,0,0,0,0,94,146,11,18,0,0,0,0,-5,53,2,01002097,0,0,0,0,A
 01002256=1,32,0,0,0,0,0,0,A
@@ -21293,6 +21293,7 @@ Power=-10
 01002488=2,14,0,23,0,0,0,0,A,54,2,01002488,0,0,0,0,A
 01002490=2,14,0,12,0,0,0,0,A,54,2,01002490,0,0,0,0,A
 01002492=2,11,4,mission:sitemp:sbtr,0,0,0,0,A,19,7,SaboteurSelect,0,0,0,0,A
+01002497=1,38,0,6,0,0,0,0,A
 
 [AddonKillWH]
 Versus.thndr=1%
@@ -21481,6 +21482,9 @@ Armor=special
 Selectable=yes
 
 [CAGEFGL]
+Armor=special
+
+[CAJPFLG]
 Armor=special
 
 [CAKANE01]
@@ -22524,7 +22528,7 @@ PlayerControl=no
 01001650=1,36,0,4
 01001654=1,8,0,0
 01001656=2,13,0,0,32,0,94
-01001663=1,13,0,0
+01001663=1,13,0,1
 01001665=1,13,0,22
 01001667=1,48,0,0
 01001669=1,48,0,0
@@ -22838,9 +22842,10 @@ PlayerControl=no
 01002488=1,13,0,120
 01002490=1,13,0,120
 01002492=1,13,0,12
+01002497=1,13,0,0
 
 [FA2spVersionControl]
-Version=3925
+Version=3938
 
 [FABLST]
 Armor=special
@@ -27181,6 +27186,7 @@ DominatorAmbientChangeRate=0.001000
 
 [LightningStormSpecial]
 RechargeTime=13
+SW.AuxBuildings=CAJPFLG
 
 [MC_EU]
 Name=MC_EU
@@ -28306,11 +28312,11 @@ Suffix=Soviet
 SmartAI=yes
 CostUnitsMult=1
 ParentCountry=ScorpionCell
-BuildTimeUnitsMult=0.35
+BuildTimeUnitsMult=0.4
 BuildTimeAircraftMult=0.4
-BuildTimeDefensesMult=0.45
-BuildTimeInfantryMult=0.35
-BuildTimeBuildingsMult=0.3
+BuildTimeDefensesMult=0.5
+BuildTimeInfantryMult=0.4
+BuildTimeBuildingsMult=0.35
 
 [ScorpionCell House]
 IQ=5
@@ -29673,6 +29679,7 @@ AttachEffect.ArmorMultiplier=99
 572=ScorpionCell House,CAYCRG01,256,197,109,64,None,1,0,1,0,0,None,None,None,0,0
 573=ScorpionCell House,YAPOWR2,256,181,91,64,None,1,0,1,0,0,None,None,None,1,0
 574=Guild1 House,CAMISC01B,256,131,66,64,None,1,0,1,0,0,None,None,None,0,0
+575=Neutral House,CAJPFLG,256,140,241,64,01001664,1,0,1,0,0,None,None,None,0,0
 576=PCOuter House,YAPOWR,256,182,153,64,None,1,0,1,0,0,None,None,None,1,0
 577=PsiCorps House,YAPSYT,256,214,144,0,None,1,0,1,0,0,None,None,None,1,0
 578=Guild1 House,CAMISC02,256,133,65,64,None,1,0,1,0,0,None,None,None,0,0
@@ -30584,7 +30591,7 @@ EliteSecondary=none
 01001607=0,[DIFF] E Sell 1,01001606
 01001609=0,[DIFF] E Kill Units 1,01001608
 01001611=0,[AI] Fleet Ceasefire Timer 1,01001610
-01001613=0,[SWITCH] Hosp+Machine Shop For Ally 1,01001612
+01001613=0,[CONVERT] Hosp+Machine Shop For Ally 1,01001612
 01001615=0,[DIFF] E Dominator Timer Extend SC 1,01001614
 01001617=0,[DIFF] M Dominator Timer Extend SC 1,01001616
 01001619=0,[AI] Dominator PC 1,01001618
@@ -30915,6 +30922,7 @@ EliteSecondary=none
 01002489=2,[SPATHA] Unit C Power ONLINE REAL 1,01002488
 01002491=2,[SPATHA] Unit C Timer END REAL 1,01002490
 01002493=0,[REINF] Saboteurs Announce 1,01002492
+01002498=0,[AI] CN War on PC IF SC Destroyed 1,01002497
 
 [TankDropSpecial]
 Money.Amount=-2200
@@ -31735,7 +31743,7 @@ FlashSidebarTabFrames=0
 491=01002496
 
 [TechMissileSpecial]
-RechargeTime=8
+RechargeTime=11
 SW.Inhibitors=CACEAS,FAINHI,FAINHIB,RACC,COON,FAJAMM,YASPAT,CAKANE01,CACRSS3
 
 [Terrain]
@@ -32328,7 +32336,7 @@ SW.Inhibitors=SBTR
 01001606=UnitedStates,<none>,[DIFF] E Sell,0,1,0,0,0
 01001608=UnitedStates,<none>,[DIFF] E Kill Units,0,1,0,0,0
 01001610=UnitedStates,<none>,[AI] Fleet Ceasefire Timer,1,1,1,1,0
-01001612=UnitedStates,<none>,[SWITCH] Hosp+Machine Shop For Ally,0,1,1,1,0
+01001612=UnitedStates,<none>,[CONVERT] Hosp+Machine Shop For Ally,0,1,1,1,0
 01001614=ScorpionCell,<none>,[DIFF] E Dominator Timer Extend SC,0,1,0,0,0
 01001616=ScorpionCell,<none>,[DIFF] M Dominator Timer Extend SC,0,0,1,0,0
 01001618=DominatorPC,<none>,[AI] Dominator PC,0,1,1,1,0
@@ -32658,6 +32666,7 @@ SW.Inhibitors=SBTR
 01002488=UnitedStates,<none>,[SPATHA] Unit C Power ONLINE REAL,1,1,1,1,0
 01002490=UnitedStates,<none>,[SPATHA] Unit C Timer END REAL,1,1,1,1,0
 01002492=UnitedStates,<none>,[REINF] Saboteurs Announce,1,1,1,1,0
+01002497=Latin,<none>,[AI] CN War on PC IF SC Destroyed,1,1,1,1,0
 
 [USSR]
 Name=USSR
@@ -33438,6 +33447,7 @@ Versus.sp_reader=250%
 351=210151
 352=194191
 353=104180
+354=197194
 522=246148
 530=245149
 534=244150
@@ -33736,4 +33746,4 @@ Speed=10
 JumpjetSpeed=10
 
 [Digest]
-1=8eDKz5deUYYLziJnfCu/vHFo68M=
+1=0yj5cw6i8p20fc7rJgmY5+hlGAs=
